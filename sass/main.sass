@@ -1,0 +1,4693 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900')
+@font-face {font-family: "San Francisco";src: url("../fonts/San Francisco.ttf") format("truetype"); font-style: normal;font-weight: normal;}
+@font-face {font-family: "Museo Sans Cyrl";src: url("../fonts/MuseoSansCyrl.otf") format("truetype"); font-style: normal;font-weight: normal;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,500,700')
+*
+	margin: 0
+	padding: 0
+	outline: none
+.wrapper
+	min-width: 1400px
+	margin: 0 auto
+.banner__links__alllink__select
+	display: none
+body
+	width: 100%
+.limiter
+	width: 1200px
+	margin: 0 auto
+.a
+	overflow: hidden
+.header__logo
+	float: left
+	padding-top: 12px
+.header__feedback
+	float: right
+	padding-top: 28px
+.header__items__feedback__text_number
+	color: #191d2f
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 300
+	text-decoration: none
+	letter-spacing: 1.5px
+.header__item__feedback__text_text
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	letter-spacing: 0.96px
+	padding-top: 4px
+.header__item__feedback__text
+	float: left
+	clear: both
+.header__item__feedback__button
+	float: right
+.header__item__button_button
+	display: inline-block
+	width: 180px
+	height: 45px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #4085d3
+	margin-left: 30px
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/header-right.png)
+		background-repeat: no-repeat
+		background-position: center
+		width: 50px
+		height: 45px
+		right: 0
+		top: 0
+.header__item__button_button
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 300
+	text-decoration: none
+	padding-left: 18px
+	line-height: 45px
+.header__top__items
+	height: 100px
+.top__links-slider
+	display: none
+.top__links
+	height: 54px
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2)
+	background-color: #4085d3
+.top__links__link
+	float: left
+	width: 220px
+	height: 36px
+	padding-top: 18px
+	padding-left: 70px
+	position: relative
+.top__links__link:hover
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2)
+	background-color: rgba(33, 40, 62, 0.3)
+.top__links__link_link
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.top__links__link:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/bus.png)
+	width: 40px
+	height: 40px
+	left: 15px
+	top: 7px
+.banner
+	height: 800px
+	background-image: url(../img/rectangle.png)
+	background-position: bottom
+	background-repeat: no-repeat
+	background-size: cover
+.banner__typical__page__object2
+	background-image: url(../img/bannertypicalpage2.png)
+	background-position: bottom
+	background-repeat: no-repeat
+	background-size: cover
+.banner__links__alllink
+	padding-top: 28px
+.banner__links__alllink_li
+	display: inline-block
+	padding-right: 10px
+	&:last-child
+		padding-right: 0px
+.banner__links__kalendar
+	display: inline-block
+	width: 160px
+	height: 34px
+	border-radius: 100px
+	border: 1px solid #ffffff
+	text-align: center
+	line-height: 34px
+.banner__links__alllink_link
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 15px
+	font-weight: 400
+.banner__main__text
+	padding-top: 160px
+.banner__main__text_h1
+	color: #ffffff
+	font-family: Roboto
+	font-size: 36px
+	font-weight: 700
+	text-align: center
+.banner__main__text_p
+	color: #ffffff
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 300
+	text-align: center
+	padding-top: 20px
+.banner__poisk__items
+	width: 100%
+	height: 54px
+	background: #ffffff
+	border-radius: 100px
+	margin-top: 164px
+	border: 1px solid #e7e7e7
+.banner__poisk__items2
+	margin-top: 0px
+.banner__poisk__items_item
+	float: left
+	height: 100%
+	&:last-child
+		border-right: 0px solid #e7e7e7
+.banner__poisk__items_item1-1
+	position: relative
+.banner__poisk__items_item_input1
+	width: 70%
+	border: none
+	outline: none
+	text-indent: 20px
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	line-height: 54px
+	border-radius: 100px 0 0 100px
+.banner__poisk__items_item__btn
+	text-align: center
+	padding-top: 30px
+	clear: both
+.banner__poisk__items_item__btn_btn
+	width: 310px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	border: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.banner__poisk__items_item1
+	width: 224px
+	border-right: 1px solid #e7e7e7
+.banner__poisk__items_item2
+	width: 180px
+	border-right: 1px solid #e7e7e7
+.banner__poisk__items_item3
+	width: 80px
+	border-right: 1px solid #e7e7e7
+.banner__poisk__items_item_text
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	line-height: 54px
+	padding-left: 20px
+	position: relative
+.banner__poisk__items_item1-1:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/out.png)
+	background-repeat: no-repeat
+	width: 19px
+	height: 24px
+	left: 184px
+	top: 15px
+.banner__poisk__items_item3-3
+	position: relative
+.banner__poisk__items_item3-3:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/kalendar.png)
+	background-repeat: no-repeat
+	width: 24px
+	height: 24px
+	left: 136px
+	top: 15px
+.banner__poisk__items_item4-4
+	position: relative
+.banner__poisk__items_item4-4:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/kalendar.png)
+	background-repeat: no-repeat
+	width: 24px
+	height: 24px
+	left: 136px
+	top: 15px
+.banner__poisk__items_item5-5
+	position: relative
+.banner__poisk__items_item5-5:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/down.png)
+	background-repeat: no-repeat
+	width: 24px
+	height: 24px
+	left: 50px
+	top: 24px
+.banner__poisk__items_item6-6
+	position: relative
+.banner__poisk__items_item6-6:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/down.png)
+	background-repeat: no-repeat
+	width: 24px
+	height: 24px
+	left: 50px
+	top: 24px
+.banner__poisk__items_item7-7
+	position: relative
+	border-right: 0px
+.banner__poisk__items_item7-7:before
+	content: ''
+	position: absolute
+	display: block
+	background-image: url(../img/group.png)
+	background-repeat: no-repeat
+	width: 24px
+	height: 24px
+	left: 136px
+	top: 15px
+.banner__bottom
+	padding-left: 450px
+.banner__bottom__button
+	float: left
+	padding-top: 30px
+	padding-right: 14px
+.banner__bottom__button_button
+	text-align: center
+	line-height: 54px
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.banner__bottom__seting
+	padding-top: 40px
+.banner__bottom__seting_a
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 300
+	text-decoration: underline
+.news
+	height: 60px
+	background-color: rgba(231, 231, 231, 0.3)
+.news-slider
+	display: none
+.news__items__item
+	float: left
+	padding-top: 14px
+.news__items__item__airplane
+	width: 50%
+.news__items__item__flash
+	width: 30%
+.news__items__item__find
+	width: 20%
+.news__items__item__img
+	width: 32px
+	height: 32px
+	background-color: #ea6604
+	border-radius: 50%
+	float: left
+	margin-right: 15px
+.news__items__item__img_img_airplane
+	padding-top: 10px
+	padding-left: 8px
+.news__items__item__img_img_flash
+	padding-top: 7px
+	padding-left: 11px
+.news__items__item__img_img_find
+	padding-top: 7px
+	padding-left: 7px
+.news__items__item__text_text
+	color: #607d8b
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 300
+.offers-none
+	display: none
+.offers
+	height: 450px
+	padding-top: 120px
+.offers__top-items
+	height: 100px
+.offers__top-items__left_item
+	float: left
+.offers__top-items__right_item
+	float: right
+	padding-top: 30px
+.offers__top-items__left_item_text_p
+	color: #336fc9
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 700
+	letter-spacing: 1px
+.offers__top-items__left_item_text_h1
+	color: #191d2f
+	font-family: Roboto
+	font-size: 36px
+	font-weight: 700
+	letter-spacing: 1px
+	padding-top: 10px
+.offers__top-items__right_item_prev
+	width: 44px
+	height: 44px
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5)
+	border-radius: 50%
+	display: inline-block
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/prev-arrow.png)
+		background-repeat: no-repeat
+		width: 11px
+		height: 20px
+		left: 15px
+		top: 12px
+.offers__top-items__right_item_next
+	width: 44px
+	height: 44px
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5)
+	background-color: #4085d3
+	border-radius: 50%
+	display: inline-block
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/next-arrow1.png)
+		background-repeat: no-repeat
+		width: 11px
+		height: 20px
+		left: 18px
+		top: 12px
+.offers__bottom-items_item
+	float: left
+	width: 380px
+	height: 300px
+	margin-right: 20px
+	background-image: url(../img/offers-back.png)
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	&:last-child
+		padding-right: 0px
+.offers__bottom-items_item2
+	background-image: url(../img/offer-img2.png)
+	background-repeat: no-repeat
+	background-size: cover
+.offers__bottom-items_item3
+	background-image: url(../img/offer-img3.png)
+	background-repeat: no-repeat
+	background-size: cover
+.offers__bottom-items_item_p
+	color: #ffffff
+	font-family: Roboto
+	font-size: 18px
+	font-weight: 400
+	line-height: 24px
+	letter-spacing: 1px
+	padding-top: 27px
+	padding-left: 20px
+.offers__bottom-items_item_a
+	display: inline-block
+	width: 120px
+	height: 36px
+	border-radius: 100px
+	background-color: #ea6604
+	text-align: center
+	line-height: 36px
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	letter-spacing: 0.88px
+	margin-left: 20px
+	position: absolute
+	bottom: 29px
+.direction-slider
+	display: none
+.direction
+	padding-top: 120px
+	height: 250px
+	padding-bottom: 120px
+.direction__top-items__left_item_text_p
+	color: #336fc9
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 700
+	letter-spacing: 1px
+.direction__top-items__left_item_text_h1
+	color: #191d2f
+	font-family: Roboto
+	font-size: 36px
+	font-weight: 700
+	letter-spacing: 1px
+	padding-top: 10px
+	padding-bottom: 49px
+.direction__bottom-items_item_text
+	float: left
+.direction__bottom-items_item1
+	background-image: url(../img/placeholder.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/placeholderwhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item2
+	background-image: url(../img/destination.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/destinationwhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item3
+	background-image: url(../img/backpacknormal.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/backpack.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item4
+	background-image: url(../img/medical.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/medicalwhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item5
+	background-image: url(../img/children.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/childrenwhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item6
+	background-image: url(../img/church.svg)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/churchwhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__bottom-items_item7
+	background-image: url(../img/shape.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background-image: url(../img/shapewhite.png)
+		background-repeat: no-repeat
+		background-position: center
+.direction__top-items__left_item_text_a
+	display: inline-block
+	text-decoration: none
+	text-align: center
+	width: 170px
+	height: 120px
+	border-right: 1px solid rgba(32, 40, 62, 0.1)
+	background-color: #ffffff
+	color: #21283e
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	letter-spacing: 1px
+	box-sizing: border-box
+	padding-top: 83px
+	&:hover
+		background-color: #3f84d3
+		color: #ffffff
+		box-shadow: 0 5px 12px #3f84d3
+.last-child
+	border-right: 0px
+.departures-none
+	display: none
+.departures__items__item
+	margin-bottom: 20px
+	margin-right: 20px
+	float: left
+	width: 380px
+	height: 450px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+	border-radius: 4px
+	background-color: #ffffff
+.departures__items__item__img_img
+	width: 380px
+	height: 140px
+	border-radius: 4px 4px 0 0
+.departures__items__item__text
+	padding-left: 20px
+	padding-top: 22px
+.departures__items__item__text__top-item_h4
+	color: #191d2f
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	letter-spacing: 0.89px
+.departures__items__item__text__top-item_p
+	opacity: 0.5
+	color: #191d2f
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	letter-spacing: 1px
+	padding-top: 4px
+	padding-bottom: 14px
+.departures__items__item__text__bottom-item
+	height: 60px
+.departures__items__item__text__middle-item__left-middle-item
+	float: left
+	width: 50%
+.departures__items__item__text__middle-item__left-middle-items_h4
+	color: #336fc9
+	font-family: Roboto
+	font-size: 30px
+	font-weight: 400
+	letter-spacing: 1px
+.departures__items__item__text__middle-item__right-middle-item
+	float: right
+	width: 50%
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/time.png)
+		background-repeat: no-repeat
+		width: 20px
+		height: 20px
+		left: 55px
+		top: 15px
+.departures__items__item__text__middle-item__right-middle-item_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	letter-spacing: 1px
+	text-align: right
+	padding-top: 15px
+.departures__items__item__text__middle-item__zaezd
+	clear: both
+	padding-bottom: 14px
+.departures__items__item__text__middle-item__zaezd_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	letter-spacing: 1px
+.departures__items__item__text__bottom-item_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	letter-spacing: 1px
+.departures__items__item__text__bottom-button
+	padding-left: 43px
+	padding-top: 16px
+.departures__items__item__text__bottom-button_button
+	display: inline-block
+	width: 240px
+	height: 40px
+	border-radius: 100px
+	background-color: #ea6604
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	letter-spacing: 1px
+	text-decoration: none
+	line-height: 40px
+	text-align: center
+.departures__items__item__text__bottom-button_consultation
+	padding-left: 35px
+	padding-top: 6px
+.departures__items__item__text__bottom-button_consultation
+	color: #336fc9
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	text-decoration: underline
+	letter-spacing: 1px
+.departures__items__kalendar
+	padding-left: 38.5%
+.departures__items__kalendar_a
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	text-align: center
+	line-height: 54px
+.kallendar
+	height: 386px
+	margin-top: 120px
+	background-image: url(../img/back-kallendar.png)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: bottom center
+.banner__kallendar
+	margin-top: 0px
+.kallendar__items__text
+	padding-top: 84px
+	padding-bottom: 62px
+.kallendar__items__text_h2
+	color: #ffffff
+	font-family: Roboto
+	font-size: 36px
+	font-weight: 700
+	letter-spacing: 1px
+	text-align: center
+.blognews-news
+	display: none
+.blognews
+	padding-top: 120px
+.blognews__items__item
+	width: 380px
+	margin-bottom: 20px
+	margin-right: 20px
+	height: 331px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05)
+	border-radius: 6px
+	background-color: #ffffff
+	float: left
+.blognews__items__item__text
+	padding-left: 31px
+	padding-top: 34px
+	height: 130px
+.blognews__items__item__text_a
+	color: #4085d3
+	font-family: Roboto
+	font-size: 18px
+	font-weight: 400
+	line-height: 30px
+	text-decoration: none
+.blognews__items__item__text_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 13px
+	font-weight: 400
+	line-height: 25px
+.blognews__items__item__line
+	width: 380px
+	height: 2px
+	background-color: #f7f7f7
+	margin-top: 15px
+.blognews__items__item__bottom-item__left-item
+	float: left
+	padding-top: 20px
+	padding-left: 30px
+	padding-right: 150px
+.blognews__items__item__bottom-item__left-item_p
+	opacity: 0.5
+	color: #191d2f
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+.blognews__items__item__bottom-item__right-item_left-item
+	float: left
+	padding-top: 20px
+	padding-right: 69px
+.blognews__items__item__bottom-item__right-item_right-item
+	padding-top: 20px
+.blognews__items__item__bottom-item__right-item_left-item_p
+	color: #b3b3b3
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 700
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/visibility-icon.png)
+		background-repeat: no-repeat
+		width: 23px
+		height: 16px
+		left: -40px
+.blognews__items__item__bottom-item__right-item_right-item_p
+	color: #b3b3b3
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 700
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/comments-icon.png)
+		background-repeat: no-repeat
+		width: 23px
+		height: 16px
+		left: 75%
+.about
+	clear: both
+	padding-top: 120px
+.about__items__text_text_h3
+	color: #191d2f
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 700
+	padding-bottom: 50px
+.about__items__text_text_p
+	color: #4e6a78
+	font-family: "Museo Sans Cyrl"
+	font-size: 16px
+	font-weight: 400
+	text-align: left
+	line-height: 26px
+.advantages
+	height: 435px
+	padding-top: 120px
+.advantages__item
+	width: 33%
+	float: left
+.advantages__item__img
+	width: 60px
+	height: 60px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	background-color: #4085d3
+	border-radius: 50%
+	text-align: center
+.advantages__item__img_img_engine
+	padding-top: 14px
+.advantages__item__img_img_smiling_girl
+	padding-top: 14px
+.advantages__item__img_img_controls
+	padding-top: 17px
+.advantages__item__text
+	padding-top:  22px
+.advantages__item__text_text_h3
+	padding-bottom: 16px
+	color: #21283e
+	font-family: Roboto
+	font-size: 24px
+	font-weight: 400
+	line-height: 32px
+.advantages__item__text_text_p
+	opacity: 0.5
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 26px
+.links
+	height: 120px
+.links__link
+	float: left
+	width: 20%
+	height: 100%
+	text-align: center
+.links__link_vk
+	background-color: #4d75a3
+.links__link__img_vk
+	padding-top: 48px
+.links__link_facebook
+	background-color: #3b5998
+.links__link__img_facebook
+	padding-top: 40px
+.links__link_twitter
+	background-color: #55acee
+.links__link__img_twitteer
+	padding-top: 42px
+.links__link_viber
+	background-color: #59267c
+.links__link__img_call
+	padding-top: 47px
+.links__link_insta
+	background-color: #c13584
+.links__link__img_insta
+	padding-top: 48px
+.footer
+	height: 478px
+	background-color: #21283e
+.footer__items
+	padding-top: 128px
+.footer__items__left-items
+	float: left
+.footer__items__left-items_item
+	float: left
+	padding-right: 102px
+	&:last-child
+		padding-right: 214px
+.footer__items__left-items_item_text_h3
+	color: #ffffff
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 400
+	padding-bottom: 21px
+.footer__items__left-items_item_text_a
+	text-decoration: none
+	opacity: 0.5
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.footer__items__left-items_item_text_p
+	padding-bottom: 20px
+.footer__items__right-items
+	float: right
+	padding-bottom: 61px
+.footer__items__right-items_item_text_h3
+	color: #ffffff
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 400
+	padding-bottom: 30px
+.footer__items__right-items_item_text_p
+	opacity: 0.5
+	color: #ffffff
+	font-family: "San Francisco"
+	font-size: 12px
+	line-height: 18px
+.footer__items__right-items_item_imgs_img
+	width: 45px
+	height: 45px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	background-color: rgba(255, 255, 255, 0.1)
+	border-radius: 50%
+	text-align: center
+	float: left
+	margin-right: 10px
+.footer__items__right-items_item_imgs
+	padding-top: 10px
+.footer__items__right-items_item_imgs_img_twitter-footer
+	padding-top: 15px
+.footer__items__right-items_item_imgs_img_facebook-footer
+	padding-top: 15px
+.footer__items__right-items_item_imgs_img_vk-footer
+	padding-top: 18px
+.footer__items__line
+	width: 100%
+	height: 1px
+	background-color: rgba(227, 227, 227, 0.1)
+	clear: both
+.footer__items__bottom-information
+	padding-top: 31px
+.footer__items__bottom-infomation_information_left-information
+	float: left
+.footer__items__bottom-infomation_information_right-information
+	float: right
+.footer__items__bottom-information_information_p
+	color: #ffffff
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+
+
+.about-sanatoriy
+	height: 545px
+	padding-top: 90px
+.about-sanatoriy__items__item__text__main-text_about
+	color: #336fc9
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 700
+	letter-spacing: 1px
+.about-sanatoriy__items__item__text__discription
+	color: #191d2f
+	font-family: Roboto
+	font-size: 36px
+	font-weight: 700
+	letter-spacing: 1px
+	padding-top: 10px
+	padding-bottom: 19px
+.about-sanatotiy__items__item__img
+	width: 280px
+	height: 220px
+	border-radius: 4px
+	float: left
+	padding-right: 20px
+	padding-bottom: 20px
+.anons
+	height: 220px
+	padding-top: 50px
+.about-sanatoriy__items__item__text__main-text_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 26px
+	letter-spacing: 1px
+.discription
+	padding-top: 50px
+.offersontypicalpage
+	padding-top: 80px
+	height: 610px
+.offersontypicalpage__text
+	padding-bottom: 50px
+.offersoffersontypicalpage__items__item
+	width: 280px
+	height: 407px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+	border-radius: 4px
+	background-color: #ffffff
+	float: left
+	margin-right: 20px
+.offersoffersontypicalpage__items__item__img
+	width: 280px
+	height: 140px
+	border-radius: 4px 4px 0 0
+.offersoffersontypicalpage__items__item__img1
+	background-image: url(../img/offerstypicalimg1.png)
+.offersoffersontypicalpage__items__item__img2
+	background-image: url(../img/offerstypicalimg2.png)
+.offersoffersontypicalpage__items__item__img3
+	background-image: url(../img/offerstypicalimg3.png)
+.offersoffersontypicalpage__items__item__img4
+	background-image: url(../img/offerstypicalimg4.png)
+.offersoffersontypicalpage__items__item__img_p
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 500
+	padding-left: 14px
+	padding-top: 91px
+.offersoffersontypicalpage__items__item__center-item
+	height: 80px
+	border-bottom: 1px solid rgba(212, 212, 212, 0.5)
+.offersoffersontypicalpage__items__item__center-item_p
+	color: #4085d3
+	font-family: Roboto
+	font-size: 24px
+	font-weight: 400
+	font-weight: 400
+	padding-top: 25px
+	padding-left: 14px
+.offersoffersontypicalpage__items__item__bottom-item
+	height: 190px
+.offersoffersontypicalpage__items__item__bottom-item_p
+	color: #000000
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	padding-top: 20px
+	padding-left: 14px
+.offersoffersontypicalpage__items__item__bottom-item__button_button
+	display: inline-block
+	width: 232px
+	height: 40px
+	border-radius: 100px
+	background-color: #ea6604
+	text-decoration: none
+	text-align: center
+	line-height: 40px
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	letter-spacing: 1px
+	margin-left: 10px
+	margin-top: 12px
+.offersoffersontypicalpage__items__item__bottom-item__text
+	height: 120px
+.offersoffersontypicalpag__items__button
+	text-align: center
+.offersoffersontypicalpag__items__button_button
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+	border-radius: 100px;
+	background-color: #ea6604;
+	text-decoration: none
+	line-height: 54px
+	text-align: center
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	margin-top: 50px
+.target
+	padding-top: 90px
+.target__items__text
+	padding-bottom: 38px
+.target__items__item_item
+	display: inline-block
+	width: 220px
+	height: 80px
+	border-radius: 4px
+	background-repeat: no-repeat
+	float: left
+	text-decoration: none
+	padding-right: 20px
+	padding-bottom: 20px
+	text-align: center
+	color: #ffffff
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 900
+	line-height: 16px
+	letter-spacing: 1.09px
+	padding-top: 33px
+.target__items__item_item1
+	background-image: url(../img/targetimg1.png)
+.target__items__item_item2
+	background-image: url(../img/targetimg2.png)
+.target__items__item_item3
+	background-image: url(../img/targetimg3.png)
+.target__items__item_item4
+	background-image: url(../img/targetimg4.png)
+.target__items__item_item5
+	background-image: url(../img/targetimg5.png)
+.target__items__item_item6
+	background-image: url(../img/targetimg6.png)
+.target__items__item_item7
+	background-image: url(../img/targetimg7.png)
+.target__items__item_item8
+	background-image: url(../img/targetimg8.png)
+.target__items__item_item9
+	background-image: url(../img/targetimg9.png)
+.directionontypicalpage
+	clear: both
+.directionontypicalpage__items__item1
+	background-image: url(../img/directionimg1.png)
+.directionontypicalpage__items__item3
+	background-image: url(../img/directionimg2.png)
+.directionontypicalpage__items__item4
+	background-image: url(../img/directionimg4.png)
+.offersontypicalpageobject
+	clear: both
+	height: 1045px
+.offersoffersontypicalpage__object__items__item
+	margin-bottom: 20px
+.targetonkategory1
+	clear: both
+.directionontypicalpagekategory__items__item1
+	background-image: url(../img/kategorydiscimg1.png)
+.directionontypicalpagekategory__items__item2
+
+.directionontypicalpagekategory__items__item3
+	background-image: url(../img/kategorydiscimg3.png)
+.directionontypicalpagekategory__items__item4
+	background-image: url(../img/kategorydiscimg4.png)
+.offersonkategory1
+	clear: both
+.offersonkategory1__items__item
+	width: 280px
+	height: 407px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+	border-radius: 4px
+	background-color: #ffffff
+	float: left
+	margin-right: 20px
+	margin-bottom: 20px
+.offersonkategory1__items__item__img
+	width: 280px
+	height: 140px
+	border-radius: 4px 4px 0 0
+.offersonkategory1__items__item__img_p
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 500
+	padding-left: 14px
+	padding-top: 31px
+.offersonkategory1__items__item__img__a
+	padding-left: 14px
+	padding-top: 20px
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/stars.png)
+		background-repeat: no-repeat
+		width: 72px
+		height: 14px
+		left: 62px
+		top: 33px
+.offersonkategory1__items__item__img_a
+	display: inline-block
+	width: 39px
+	height: 40px
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+	background-color: #ffffff
+	border-radius: 50%
+	color: #4085d3
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 700
+	text-decoration: none
+	text-align: center
+	line-height: 40px
+.offersonkategory1__items__item__img1
+	background-image: url(../img/offerskategori1.png)
+.offersonkategory1__items__item__img2
+	background-image: url(../img/offerskategori2.png)
+.offersonkategory1__items__item__img3
+	background-image: url(../img/offerskategori3.png)
+.offersonkategory1__items__item__img4
+	background-image: url(../img/offerskategori1.png)
+.offersonkategory1__items__item__top-item
+	height: 78px
+.offersonkategory1__items__item__top-item__left-item
+	float: left
+	padding-left: 14px
+	padding-top: 14px
+	padding-right: 22px
+.offersonkategory1__items__item__top-item__right-item
+	padding-top: 21px
+.offersonkategory1__items__item__top-item__left-item_price
+	color: #4085d3
+	font-family: Roboto
+	font-size: 24px
+	font-weight: 400
+	font-weight: 400
+.offersonkategory1__items__item__top-item__left-item_doplata
+	opacity: 0.5
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+.offersonkategory1__items__item__top-item__right-item_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+.offersonkategory1__items__item__center-item
+	height: 50px
+	border: 1px solid rgba(212, 212, 212, 0.5)
+.offersonkategory1__items__item__center-item__left-item
+	width: 50%
+	height: 50px
+	float: left
+	border-right: 1px solid #e9e9e9
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/003-takeoff-the-plane.png)
+		background-repeat: no-repeat
+		width: 19px
+		height: 14px
+		left: 14px
+		top: 18px
+.offersonkategory1__items__item__center-item__right-item
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/0030kat1.png)
+		background-repeat: no-repeat
+		width: 14px
+		height: 14px
+		left: 180px
+		top: 18px
+.offersonkategory1__items__item__center-item__left-item_p
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	padding-left: 42px
+	padding-top: 17px
+.offersonkategory1__items__item__center-item__right-item_p
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	padding-top: 17px
+	padding-left: 200px
+.offersonkategory1__items__item__bottom-item_p
+	color: #000000
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	padding-left: 14px
+	padding-top: 20px
+.offersonkategory1__items__item__bottom-item_p_fw
+	font-weight: 700
+.offersonkategory1__items__item__button_button
+	display: inline-block
+	width: 232px
+	height: 40px
+	border-radius: 100px
+	background-color: #ea6604
+	color: #ffffff
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	letter-spacing: 1px
+	text-align: center
+	text-decoration: none
+	line-height: 40px
+	margin-left: 24px
+	margin-top: 20px
+.departuresobject1
+	margin-top: 40px
+.departuresobject1__items__top-items
+	width: 100%
+	height: 60px
+	background: #f4f8fd
+	margin-bottom: 10px
+.departuresobject1__items__top-items__item
+	float: left
+	padding-right: 130px
+	padding-top: 20px
+	&:nth-child(1)
+		padding-left: 30px
+	&:last-child
+		padding-right: 0px
+.departuresobject1__items__top-items__item_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.items__before
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/grayair1.png)
+		background-repeat: no-repeat
+		width: 17px
+		height: 16px
+		top: 67px
+		left: 85px
+	&:after
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/grayair2.png)
+		background-repeat: no-repeat
+		width: 17px
+		height: 16px
+		left: 120px
+		bottom: 25px
+.departuresobject1__items__bottom-items__item
+	width: 1180px
+	height: 140px
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+	border-radius: 4px
+	background-color: #ffffff
+	margin-bottom: 10px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/colorairplane1.png)
+		background-repeat: no-repeat
+		width: 17px
+		height: 16px
+		left: 20px
+		top: 67px
+	&:after
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/colorairplane2.png)
+		background-repeat: no-repeat
+		width: 17px
+		height: 16px
+		left: 50px
+		top: 67px
+	&:last-child
+		margin-bottom: 0px
+.departuresobject1__items__bottom-items__item_item
+	float: left
+	padding-top: 40px
+	&:nth-child(1)
+		padding-left: 30px
+		padding-right: 50px
+	&:last-child
+		padding-right: 0px
+	&:nth-child(2)
+		padding-right: 95px
+		padding-top: 61px
+	&:nth-child(3)
+		padding-right: 155px
+	&:nth-child(4)
+		padding-right: 184px
+		padding-top: 48px
+	&:nth-child(5)
+		padding-top: 54px
+.departuresobject1__items__bottom-items__item_item__p-time
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 700
+.departuresobject1__items__bottom-items__item_item__p-vibor
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 22px
+.departuresobject1__items__bottom-items__item_item__p-price
+	color: #1d1d1d
+	font-weight: 400
+	font-family: Roboto
+	font-size: 16px
+	line-height: 22px
+.departuresobject1__items__bottom-items__item_item__p-price_span
+	color: #e2500a
+	font-weight: 500
+.departuresobject1__items__bottom-items__item_item__p-link
+	display: inline-block
+	width: 180px
+	height: 32px
+	border-radius: 4px
+	background-color: #4085d3
+	text-decoration: none
+	text-align: center
+	line-height: 32px
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.departuresobject1__items__bottom-items__item_item__p-type
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 10px
+	font-weight: 400
+	padding-top: 30px
+.p__type1
+	float: left
+	padding-right: 14px
+.offersonobject1
+	padding-top: 120px
+.banner-tranport
+	background: #ffffff
+.banner-tranport
+	background-image: url(../img/transport-bus.png)
+	background-size: 890px 546px
+	background-position: left
+	background-repeat: no-repeat
+.banner__transport__links_a
+	color: #21283e
+	font-family: Roboto
+	font-size: 15px
+	font-weight: 400
+.banner__transport__alllink
+	padding-left: 55px
+.banner-transport__items__form__main-text
+	padding-top: 20px
+.banner-transport__items__form
+	width: 480px
+	height: 500px
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5)
+	border-radius: 4px
+	background-color: #4085d3
+	margin-top: 21px
+	float: right
+.banner-transport__items__form__main-text__text-top_text
+	color: #ffffff
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	line-height: 20px
+	text-align: center
+.banner-transport__items__form__main-text__text-bottom_text
+	color: #ffffff
+	font-family: Roboto
+	font-size: 18px
+	font-weight: 700
+	line-height: 20px
+	text-align: center
+.banner-transport__items__form__items__bottom-items
+	padding-left: 50px
+	padding-top: 24px
+.banner-transport__items__form__items__bottom-items__input
+	float: left
+	padding-right: 20px
+	padding-bottom: 20px
+.banner-transport__items__form__items__bottom-items__input_input
+	width: 180px
+	height: 44px
+	border-radius: 4px
+	background-color: #ffffff
+	border: none
+	outline: none
+	text-indent: 10px
+	color: #21283e
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+.banner-transport__items__form__items__bottom-items__input_textarea
+	width: 380px
+	height: 88px
+	border-radius: 4px
+	background-color: #ffffff
+	resize: none
+	color: #21283e
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+.banner-transport__items__form__items__bottom-items__btn
+	clear: both
+	padding-left: 71px
+.banner-transport__items__form__items__bottom-items__btn_btn
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	border: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	outline: none
+.banner-transport__items__button
+	margin-top: 443px
+.banner-transport__items__button_button
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #4085d3
+	text-decoration: none
+	text-align: center
+	line-height: 54px
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.transport-services
+	overflow: hidden
+.transport-services__items__item_item
+	width: 380px
+	height: 320px
+	float: left
+	margin-right: 20px
+	margin-bottom:  20px
+.transport-services__items__item_item_ts1
+	background-image: url(../img/ts1.png)
+.transport-services__items__item_item_ts2
+	background-image: url(../img/ts2.png)
+.transport-services__items__item_item_ts3
+	background-image: url(../img/ts3.png)
+.transport-services__items__item_item_ts4
+	background-image: url(../img/ts4.png)
+.transport-services__items__item_item_ts5
+	background-image: url(../img/ts5.png)
+.transport-services__items__item_item_ts6
+	background-image: url(../img/ts6.png)
+.transport-services__items__item_item_a
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 400
+	letter-spacing: 1px
+.transport-services__items__item_item__a
+	padding-left: 20px
+	padding-top: 268px
+.transport-scheme
+	padding-top: 120px
+	overflow: hidden
+.transport-scheme__items_item
+	height: 230px
+	width: 280px
+	float: left
+	margin-right: 20px
+.transport-scheme__items_item_1
+	position: relative
+	&:before
+		content: '1'
+		position: absolute
+		display: block
+		width: 85px
+		height: 169px
+		opacity: 0.1
+		color: #191d2f
+		left: 95px
+		font-family: Roboto
+		font-size: 144px
+		font-weight: 900
+.transport-scheme__items_item_2
+	position: relative
+	&:before
+		content: '2'
+		position: absolute
+		display: block
+		width: 85px
+		height: 169px
+		opacity: 0.1
+		color: #191d2f
+		left: 95px
+		font-family: Roboto
+		font-size: 144px
+		font-weight: 900
+.transport-scheme__items_item_3
+	position: relative
+	&:before
+		content: '3'
+		position: absolute
+		display: block
+		width: 85px
+		height: 169px
+		opacity: 0.1
+		color: #191d2f
+		left: 95px
+		font-family: Roboto
+		font-size: 144px
+		font-weight: 900
+.transport-scheme__items_item_4
+	position: relative
+	&:before
+		content: '4'
+		position: absolute
+		display: block
+		width: 85px
+		height: 169px
+		opacity: 0.1
+		color: #191d2f
+		left: 95px
+		font-family: Roboto
+		font-size: 144px
+		font-weight: 900
+.transport-scheme__items_item__img
+	text-align: center
+	padding-top: 100px
+.transport-scheme__items_item__text_text
+	color: #191d2f
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 26px
+	letter-spacing: 0.89px
+	text-align: center
+.autopark
+	padding-top: 120px
+	overflow: hidden
+.autopark__items__item_item
+	height: 420px
+	width: 380px
+	float: left
+	margin-right: 20px
+	margin-bottom: 20px
+.autopark__items__item_item__text
+	padding-top: 20px
+.autopark__items__item_item__text_p_bus
+	text-align: center
+	color: #336fc9
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	letter-spacing: 1px
+.about-sanatoriy__items__item__text_p_kolvo
+	text-align: center
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	letter-spacing: 1px
+	padding-top: 8px
+.autopark__items__item_item__button
+	text-align: center
+	padding-top: 14px
+.autopark__items__item_item__button_button
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	text-align: center
+	text-decoration: none
+	line-height: 54px
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.marks
+	height: 120px
+	margin-top: 120px
+	background-color: rgba(231, 231, 231, 0.3)
+.marks__items__item__img
+	text-align: center
+	padding-top: 28px
+.vibor
+	padding-top: 120px
+.vibor__items__top-items__item
+	width: 280px
+	height: 220px
+	border-radius: 4px
+	border: 1px solid #4085d3
+	float: left
+	margin-right: 20px
+	margin-bottom: 48px
+	&:last-child
+		margin-right: 0px
+.vibor__items__top-items__item__img
+	text-align: center
+	padding-top: 51px
+	padding-bottom: 14px
+.vibor__items__top-items__item__text_text
+	text-align: center
+		color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	letter-spacing: 1px
+.vibor__items__bottom-items__left-items
+	width: 604px
+	height: 700px
+	float: left
+.vibor__items__bottom-items__left-items_item
+	width: 280px
+	height: 220px
+	border-radius: 4px
+	border: 1px solid #4085d3
+	float: left
+	margin-bottom: 20px
+	margin-right: 20px
+	&:last-child
+		margin-right: 0px
+.vibor__items__bottom-items__left-items_textfw
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 700
+	line-height: 20px
+	letter-spacing: 1px
+	text-align: center
+.vibor__items__bottom-items__item__img
+	padding-top: 29px
+.vibor__items__bottom-items__item__text_text
+	color: #191d2f
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	line-height: 20px
+	letter-spacing: 0.86px
+.vibor__items__bottom-items__left-items__right-items__top-text_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 28px
+	letter-spacing: 1px
+.vibor__items__bottom-items__left-items__right-items__bottom-text
+	overflow: hidden
+	padding-top: 16px
+.vibor__items__bottom-items__left-items__right-items__bottom-text__text
+	padding-bottom: 29px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/vibor-elemnt.png)
+		background-repeat: no-repeat
+		width: 22px
+		height: 16px
+.vibor__items__bottom-items__left-items__right-items__bottom-text__text_text
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	letter-spacing: 1px
+	padding-left: 34px
+.partners
+	overflow: hidden
+	padding-top: 120px
+.partners__items__item_item
+	width: 275px
+	height: 120px
+	border-radius: 4px
+	border: 1px solid #e7e7e7
+	margin-right: 20px
+	margin-bottom: 20px
+	float: left
+.partners__items__item_item__img
+	text-align: center
+	padding-top: 42px
+.partners__items__item_item__img_img5
+	padding-top: 18px
+.transport__banner2
+	margin-top: 120px
+	height: 480px
+	background-image: url(../img/banner2.png)
+	background-attachment: fixed
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: bottom
+.transport__banner2__form
+	margin-top: 0px
+	height: 500px
+	float: right
+.transport__banner2__items__text_text
+	color: #ffffff
+	font-family: Roboto
+	font-size: 44px
+	font-weight: 900
+	line-height: 56px
+	letter-spacing: 1px
+.transport__banner2__items__text
+	float: left
+	padding-left: 79px
+	padding-top: 128px
+.transport__about-text
+	width: 1100px
+	height: 450px
+.result
+	padding-top: 120px
+.result__items__item__left-item
+	width: 280px
+	height: 820px
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+	border-radius: 4px
+	background-color: #ffffff
+	float: left
+	margin-right: 20px
+.result__items__item__right-item
+	overflow: hidden
+.result__items__item__left-item_item1
+	height: 63px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img1.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item2
+	height: 73px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img2.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item3
+	height: 85px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img3.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item4
+	height: 117px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img4.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item5
+	height: 73px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img5.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item6
+	height: 73px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img6.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item7
+	height: 170px
+	margin-bottom: 20px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/result-img7.png)
+		background-repeat: no-repeat
+		width: 30px
+		height: 30px
+		top: 16px
+		left: 16px
+.result__items__item__left-item_item1__text__text-p
+	padding-left: 56px
+	padding-top: 22px
+.result__items__item__left-item_item1__text__text-p_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 700
+.result__items__item__left-item_item1__text__text__text-a
+	padding-left: 56px
+	padding-top: 14px
+.result__items__item__left-item_item1__text__text__text-a_left-a
+	display: inline-block
+	width: 60px
+	height: 24px
+	border-radius: 4px
+	border: 1px solid #ea6604
+	text-align: center
+	text-decoration: no-repeat
+	line-height: 24px
+	color: #ea6604
+	text-decoration: none
+	margin-right: 16px
+.result__items__item__left-item_item1__text__text__text-a_right-a
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	text-decoration: none
+.result__items__item__left-item_item__input
+	padding-left: 56px
+	padding-top: 8px
+.result__items__item__left-item_item__input_input_left-input
+	width: 95px
+	height: 40px
+	border-radius: 4px 0 0 4px
+	border: 1px solid rgba(38, 38, 38, 0.2)
+	float: left
+	text-indent: 10px
+.result__items__item__left-item_item__input_input_right-input
+	width: 95px
+	height: 40px
+	border-radius: 0 4px 4px 0
+	border: 1px solid #d4d4d4
+	border-left: 0
+	text-indent: 10px
+.result__items__item__left-item_item__input4
+	padding-left: 56px
+	padding-top: 8px
+.result__items__item__left-item_item__input_input_left-input4
+	width: 190px
+	height: 40px
+	border-radius: 4px
+	border: 1px solid rgba(38, 38, 38, 0.2)
+	margin-bottom: 4px
+	text-indent: 10px
+.result__items__item__left-item__checkbox__checkbox1
+	padding-left: 56px
+	padding-top: 8px
+	padding-bottom: 5px
+.result__items__item__left-item__checkbox__checkbox1__checkbox
+	float: left
+	padding-right: 10px
+.result__items__item__left-item__checkbox__checkbox_checkbox1
+	width: 18px
+	height: 18px
+	border-radius: 4px
+	border: 1px solid rgba(38, 38, 38, 0.2)
+.result__items__item__left-item__checkbox_checkbox_label
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	display: inline-block
+.result__items__bottom-button
+	text-align: center
+.result__items__bottom-button_button
+	display: inline-block
+	width: 180px
+	height: 50px
+	border-radius: 100px
+	border: 1px solid #4085d3
+	line-height: 50px
+	text-decoration: none
+	text-align: center
+	color: #21283e
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+.mainnews-uslugi
+	overflow: hidden
+.mainnews-uslugi__items
+	padding-left: 120px
+.mainnews-uslugi__items_item
+	width: 280px
+	height: 120px;
+	border-radius: 5px
+	border: 1px solid #4085d3
+	float: left
+	margin-right: 40px
+	margin-top: 25px
+	margin-bottom: 25px
+.mainnews-uslugi__items_item_a
+	color: #4085d3
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+	text-decoration: none
+.mainnews-uslugi__items_item__a
+	padding-left: 120px
+	padding-top: 41px
+.mainnews-uslugi__items_item1
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/newsuslugi1.png)
+		background-repeat: no-repeat
+		width: 80px
+		height: 80px
+		left: 20px
+		top: 20px
+.mainnews-uslugi__items_item2
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/newsuslugi2.png)
+		background-repeat: no-repeat
+		width: 80px
+		height: 80px
+		left: 20px
+		top: 20px
+.mainnews-uslugi__items_item3
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/newsuslugi3.png)
+		background-repeat: no-repeat
+		width: 80px
+		height: 80px
+		left: 20px
+		top: 20px
+.mainnews
+	overflow: hidden
+	padding-top: 90px
+.mainnews__items__item__text
+	padding-bottom: 30px
+.mainnews__items__item__text_text
+	color: #666666
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 30px
+.mainnews__items__item
+	padding-left: 120px
+.mainpartners
+	overflow: hidden
+	padding-top: 90px
+.mainpartners__items_items__item
+	width: 280px;
+	height: 120px;
+	border-radius: 4px;
+	border: 1px solid #e7e7e7;
+	float: left
+	margin-bottom: 21px
+	margin-right: 20px
+	&:nth-child(4)
+		margin-right: 0px
+	&:nth-child(8)
+		margin-right: 0px
+	&:nth-child(12)
+		margin-right: 0px
+.mainpartners__items_items__item__img
+	text-align: center
+.mainpartners__items_items__item__img1
+	padding-top: 36px
+.mainpartners__items_items__item__img2
+	padding-top: 27px
+.mainpartners__items_items__item__img3
+	padding-top: 19px
+.mainpartners__items_items__item__img4
+	padding-top: 38px
+.mainpartners__items_items__item__img5
+	padding-top: 35px
+.mainpartners__items_items__item__img6
+	padding-top: 33px
+.mainpartners__items_items__item__img7
+	padding-top: 45px
+.mainpartners__items_items__item__img8
+	padding-top: 37px
+.mainpartners__items_items__item__img9
+	padding-top: 36px
+.mainpartners__items_items__item__img10
+	padding-top: 27px
+.mainpartners__items_items__item__img11
+	padding-top: 19px
+.mainpartners__items_items__item__img12
+	padding-top: 38px
+.kalendar
+	padding-top: 70px
+	overflow: hidden
+.datetimepicker
+	display: none
+	position: absolute
+	background: #ffffff
+.datepicker td, .datepicker th
+	margin-right: 74px
+	margin-bottom: 13px
+.prevv
+	width: 44px
+	height: 44px
+	border: 1px solid rgba(33, 40, 62, 0.5)
+	border-radius: 100px
+	background-image: url(../img/kalendarprev.png)
+	background-repeat: no-repeat
+	background-position: center
+	&:hover
+		background: #4085d3
+		background-image: url(../img/kalendarnext.png)
+		background-repeat: no-repeat
+		background-position: center
+		border: none
+.nextt
+	width: 44px
+	height: 44px
+	border: 1px solid rgba(33, 40, 62, 0.5)
+	border-radius: 100px
+	background-image: url(../img/kalendarprev1.png)
+	background-repeat: no-repeat
+	background-position: center
+	float: right
+	&:hover
+		background: #4085d3
+		background-image: url(../img/kalendarnext1.png)
+		background-repeat: no-repeat
+		background-position: center
+		border: none
+.dow
+	color: #21283e !important
+	font-family: Roboto !important
+	font-size: 18px !important
+	font-weight: 400 !important
+	opacity: 0.7
+.kalendar__items__left-items
+	float: left
+.kalendar__items__right-items
+	float: right
+.kalendar__items__right-items__item__top-text
+	text-align: center
+	padding-bottom: 30px
+.kalendar__items__right-items__item__top-text_text
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 700
+.kalendar__items__right-items__item__bottom-button__left-item
+	float: left
+.kalendar__items__right-items__item__bottom-button__right-item__p
+	float: left
+.kalendar__items__right-items__item__bottom-button__left-item_a
+	display: inline-block
+	width: 100px
+	height: 44px
+	border-radius: 100px
+	border: 1px solid #4085d3
+	text-align: center
+	text-decoration: none
+	line-height: 44px
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 300
+.kalendar__items__right-items__item__bottom-button__right-item__p
+	padding-top: 15px
+	padding-left: 60px
+	padding-right: 59px
+.kalendar__items__right-items__item__bottom-button__right-item__p_p
+	opacity: 0.5
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+.kalendar__items__right-items__item__bottom-button__right-item__a_a
+	display: inline-block
+	width: 100px
+	height: 44px
+	border-radius: 100px
+	border: 1px solid #4085d3
+	text-align: center
+	text-decoration: none
+	line-height: 44px
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 300
+.katalog
+	padding-top: 50px
+.katalog__items__top-item__left-item__input__p_p
+	color: #ea6604
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 500
+.katalog__items__top-item__left-item__input__p
+	padding-bottom: 4px
+.katalog__items__top-item__left-item__input__select_select
+	width: 280px
+	height: 60px
+	border-radius: 4px
+	border: 2px solid rgba(38, 38, 38, 0.1)
+	background-color: #ffffff
+.katalog__items__top-item__left-item__input
+	padding-bottom: 14px
+	padding-right: 19px
+.katalog__items__top-item__right-item__item__a_a
+	display: inline-block
+	width: 44px
+	height: 44px
+	border-radius: 4px
+	background-image: url(../img/kalimg.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-color: #ea6604
+.kalimg2
+	background-image: url(../img/kalimg2.png)
+	background-repeat: no-repeat
+	background-position: center
+.kalimg3
+	background-image: url(../img/kalimg3.png)
+	background-repeat: no-repeat
+	background-position: center
+.kalimg4
+	background-image: url(../img/kalimg4.png)
+	background-repeat: no-repeat
+	background-position: center
+.kalimg5
+	background-image: url(../img/kalimg5.png)
+	background-repeat: no-repeat
+	background-position: center
+.kalimg6
+	background-image: url(../img/kalimg6.png)
+	background-repeat: no-repeat
+	background-position: center
+.kalimg7
+	background-image: url(../img/kalimg7.png)
+	background-repeat: no-repeat
+	background-position: center
+.katalog__items__top-item__right-item__item__p_p
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+.katalog__items__top-item__right-item__item
+	padding-right: 57px
+	float: left
+	&:last-child
+		padding-right: 0px
+.katalog__katalog
+	clear: both
+	padding-top: 31px
+.rewards
+	padding-top: 90px
+.rewards__right-item
+	padding-top: 0px
+.rewards__items__top-items__left-item__a
+	float: left
+.rewards__items__top-items__left-item__a_a
+	text-decoration: none
+	text-align: center
+	line-height: 42px
+	color: #383838
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 500
+	&:hover
+		background-color: #4085d3
+		color: #ffffff
+.rewards__items__top-items__left-item__a_a1
+	display: inline-block
+	width: 98px
+	height: 42px
+	border-radius: 40px 0 0 40px
+	border: 2px solid #4085d3
+.rewards__items__top-items__left-item__a_a2
+	display: inline-block
+	width: 98px
+	height: 42px
+	border-top: 2px solid #4085d3
+	border-bottom: 2px solid #4085d3
+.rewards__items__top-items__left-item__a_a3
+	display: inline-block
+	width: 98px
+	height: 42px
+	border: 2px solid #4085d3
+	border-radius: 0px 40px 40px 0px
+.rewards__items__bottom-item__img
+	float: left
+.rewards__items__bottom-item
+	clear: both
+	padding-top: 41px
+.contacts
+	padding-top: 90px
+.contacts__left-items
+	width: 400px
+	height: 601px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05)
+	border-radius: 6px
+	background-color: #ffffff
+	float: left
+	margin-right: 30px
+	clear: both
+.contacts__right-items
+	overflow: hidden
+	padding-top: 13px
+.contacts__items__about__text
+	float: left
+	padding-bottom: 20px
+.contacts__right-items__input__text_p
+	color: #ea6604
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 500
+.contacts__right-items__input__select
+	padding-top: 4px
+	padding-bottom: 15px
+.contacts__right-items__input__select_select
+	width: 480px
+	height: 60px
+	border-radius: 4px
+	border: 2px solid rgba(38, 38, 38, 0.1)
+	background-color: #ffffff
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	text-indent: 20px
+.contacts__left-items__items__item__maintext
+	padding-left: 127px
+	padding-top: 71px
+.contacts__left-items__items__item__maintext_p
+	color: #336fc9
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 900
+	line-height: 30px
+.contacts__left-items__items__item__top-item
+	padding-left: 127px
+	padding-top: 40px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/contactsimg1.png)
+		background-repeat: no-repeat
+		width: 20px
+		height: 20px
+		left: 78px
+.contacts__left-items__items__item__top-item__weight-p_weight-p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 700
+	line-height: 22px
+.contacts__left-items__items__item__top-item__normal-p_normal-p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 22px
+.contacts__left-items__items__item__center-item
+	padding-left: 127px
+	padding-top: 16px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/contactsimg2.svg)
+		background-repeat: no-repeat
+		width: 20px
+		height: 16px
+		left: 78px
+.contacts__left-items__items__item__center-item__p_p
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 400
+	line-height: 22px
+.contacts__center-item_span
+	font-weight: 700
+.contacts__left-items__items__item__bottom-item__top-text
+	padding-left: 127px
+	padding-top: 16px
+.contacts__left-items__items__item__bottom-item
+	padding-left: 127px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/contactsimg3.png)
+		background-repeat: no-repeat
+		width: 14px
+		height: 20px
+		left: 78px
+.contacts__left-items__items__item__bottom-item__top-text_p
+	color: #336fc9
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 900
+	line-height: 30px
+.contacts__bottom-item_span
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+	line-height: 30px
+.contacts__left-items__items__item__bottom-item__time_span
+	color: #191d2f
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 700
+	line-height: 30px
+.zayavka
+	width: 980px
+	height: 1041px
+	box-shadow: 0 4px 14px #21283e
+	border-radius: 4px
+	background-color: #fafafa
+	margin: 0 auto
+.zayavka__items__item__top-item
+	width: 980px
+	height: 60px
+	box-shadow: 0 1px 0 rgba(33, 40, 62, 0.1)
+	border-radius: 4px 4px 0 0
+	background-color: #ffffff
+.zayavka__items__item__top-item__text
+	padding-top: 18px
+.zayavka__items__item__top-item__text_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 500
+	text-align: center
+.zayavka__items__item__center-item
+	height: 443px
+	box-shadow: 0 1px 0 rgba(0, 100, 162, 0.2)
+.zayavka__items__item__center-item__text
+	padding-top: 20px
+	text-align: center
+.zayavka__items__item__center-item__text_p
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+	line-height: 26px
+	padding-bottom: 31px
+.zayavka__items__item__center-item__left-item
+	padding-left: 50px
+	float: left
+	padding-right: 30px
+.zayavka__items__item__center-item__left-item__offer
+	margin-bottom: 0
+	margin-right: 0
+	width: 280px
+	height: 350px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+	border-radius: 4px
+	background-color: #ffffff
+.zayavka__items__item__center-item__right-item__top-text_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 700
+.zayavka__items__item__center-item__right-item__top-text
+	padding-bottom: 10px
+.zayavka__items__item__center-item__right-item__left-item
+	float: left
+.zayavka__items__item__center-item__right-item__left-item__text
+	padding-bottom: 21px
+	padding-right: 69px
+	&:last-child
+		padding-bottom: 21px
+.zayavka__items__item__center-item__right-item__left-item__text_p
+	opacity: 0.5
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.zayavka__items__item__center-item__right-item__right-item__text_p
+	color: #1d1d1d
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 400
+.zayavka__items__item__center-item__right-item__right-item__text
+	padding-bottom: 21px
+	&:last-child
+		padding-bottom: 21px
+.zayavka__items__item__bottom-item
+	padding-left: 50px
+	padding-top: 40px
+.zayavka__items__item__bottom-item__top-text_p
+	color: #21283e
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 700
+.zayavka__items__item__bottom-item__input-items
+	padding-top: 20px
+.zayavka__items__item__bottom-item__input-items__input__text_p
+	color: #ea6604
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 500
+.zayavka__items__item__bottom-item__input-items__input
+	float: left
+	padding-right: 20px
+	padding-bottom: 20px
+.zayavka__items__item__bottom-item__input-items__input_input
+	width: 280px
+	height: 60px
+	border-radius: 4px
+	border: 1px solid rgba(38, 38, 38, 0.1)
+	background-color: #ffffff
+	outline: none
+.zayavka__items__item__bottom-item__input-items__input_input__textarea_textarea
+	width: 880px
+	height: 120px
+	border-radius: 4px
+	border: 2px solid rgba(38, 38, 38, 0.1)
+	background-color: #ffffff
+	outline: none
+	resize: none
+.zayavka__items__item__bottom-item__input-items__input__submit
+	clear: both
+	text-align: center
+	padding-top: 100px
+.zayavka__items__item__bottom-item__input-items__input__submit_submit
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	border: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.zayavka__offer
+	height: 267px
+	margin-left: 50px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+	border-radius: 4px
+.info-about-transport
+	width: 1141px
+	height: 750px
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05)
+	border-radius: 6px
+	background-color: #ffffff
+	margin: 0 auto
+.info-about-transport__items__top-items
+	height: 119px
+	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.05)
+.info-about-transport__items__top-items__item
+	padding-left: 67px
+	padding-top: 49px
+.info-about-transport__items__top-items__item_p
+	color: #191d2f;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+.info-about-transport__items__left-items
+	width: 585px
+	float: left
+	border-right: 2px solid rgba(0, 0, 0, 0.05)
+	padding-left: 68px
+	padding-top: 20px
+.info-about-transport__items__left-items__top-item_p
+	color: #808080
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	line-height: 30px
+.info-about-transport__items__center-item__top-text
+	padding-top: 10px
+.info-about-transport__items__center-item__top-text_text
+	color: #808080
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 400
+	line-height: 30px
+.info-about-transport__items__center-item__item
+	padding-top: 10px
+	padding-left: 26px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/dot.svg)
+		background-repeat: no-repeat
+		width: 6px
+		height: 6px
+		left: 0
+		top: 20px
+.info-about-transport__items__center-item__item__text_text
+	color: #808080
+	font-family: Roboto
+	font-size: 12px
+	font-weight: 500
+	line-height: 30px
+.info-about-transport__items__left-items
+	height: 611px
+.info-about-transport__items__bottom-items__item
+	width: 44px
+	height: 44px
+	border: 1px solid #4085d3
+	border-radius: 100px
+	float: left
+	margin-right: 20px
+	text-align: center
+	&:last-child
+		margin-right: 0px
+.info-about-transport__items__bottom-items__item_img
+	padding-top: 10px
+.info-about-transport__items__bottom-items__button_button
+	display: inline-block
+	width: 240px
+	height: 54px
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16)
+	border-radius: 100px
+	background-color: #ea6604
+	line-height: 54px
+	text-align: center
+	text-decoration: none
+	color: #ffffff
+	font-family: Roboto
+	font-size: 16px
+	font-weight: 300
+.hot-tours
+	padding-top: 90px
+.hot-tours__items__main-text_main-text
+	float: left
+	padding-right: 14px
+.hot-tours__items__section
+	padding-top: 30px
+.hot-tours__items__section_section
+	width: 223px
+	height: 40px
+	border-radius: 4px
+	border: 2px solid #f5f5f5
+	color: #191d2f
+	font-family: Roboto
+	font-size: 10px
+	font-weight: 900
+	text-indent: 20px
+.hot-tours__items__item
+	clear: both
+.hot-tours__items__item_item
+	width: 380px
+	height: 320px
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+	border-radius: 4px
+	background-color: #ffffff
+	float: left
+	margin-right: 20px
+	margin-bottom: 28px
+	&:active
+		top: 100%
+		left: 20%
+		border: solid transparent
+		content: " "
+		height: 0
+		width: 0
+		position: absolute
+		pointer-events: none
+		border-top-color: rgba(0, 0, 0, 0.3)
+		border-width: 30px
+		margin-left: -30px
+.hot-tours__items__item_item1
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon1.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 40px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item2
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon2.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 40px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item3
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon3.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 45px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item4
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon4.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 40px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item5
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon5.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 45px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item6
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/hottouricon6.png)
+		background-repeat: no-repeat
+		width: 56px
+		height: 40px
+		left: 12px
+		top: 220px
+.hot-tours__items__item_item__left-item
+	padding-left: 25px
+	padding-top: 44px
+	float: left
+	width: 100px
+.hot-tours__items__item_item__left-item__left
+	float: left
+	padding-right: 48px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/003-temperature-1.png)
+		background-repeat: no-repeat
+		width: 22px
+		height: 24px
+		left: -30px
+.hot-tours__items__item_item__left-item__left_p
+	color: #0064a2
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+.hot-tours__items__item_item__left-item__right
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		background-image: url(../img/003-temperature-2.png)
+		background-repeat: no-repeat
+		width: 22px
+		height: 24px
+		left: 40px
+.hot-tours__items__item_item__left-item__right_p
+	color: #4b9b1e
+	font-family: Roboto
+	font-size: 14px
+	font-weight: 500
+.hot-tours__items__item_item__right-item
+	padding-top: 5px
+	overflow: hidden
+.hot-tours__items__item_item__town
+	padding-bottom: 10px
+	float: right
+.hot-tours__items__item_item__town_p
+	color: #4085d3
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 500
+.hot-tours__items__item_item__price
+	clear: both
+	float: right
+.hot-tours__items__item_item__price_p
+	color: #4085d3
+	font-family: Roboto
+	font-size: 20px
+	font-weight: 400
+.limiter2
+	width: 340px
+	margin: 0 auto
+.ArrowPrev
+	width: 44px
+	height: 44px
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5)
+	border-radius: 50%
+	display: inline-block
+	position: relative
+	background-image: url(../img/prev-arrow.png)
+	background-repeat: no-repeat
+	background-position: center
+	border: 1px solid rgba(32, 40, 62, 0.5)
+	cursor: pointer
+	&:hover
+		background-color: #4085d3
+		background-image: url(../img/prev-arrow-white.png)
+		background-repeat: no-repeat
+		background-position: center
+		border: none
+	
+.ArrowNext
+	width: 44px
+	height: 44px
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5)
+	border-radius: 50%
+	display: inline-block
+	position: relative
+	background-image: url(../img/next11.png)
+	background-repeat: no-repeat
+	background-position: center
+	border: 1px solid rgba(32, 40, 62, 0.5)
+	cursor: pointer
+	&:hover
+		background-color: #4085d3
+		background-image: url(../img/next22.png)
+		background-repeat: no-repeat
+		background-position: center
+		border: none
+		border: none
+
+.mobile-img
+	display: none
+.contacts__mobile
+	display: none
+.vibor-mobile
+	display: none
+.transport-mobile-form
+	display: none
+.info-about-transport__items__right-items
+	overflow: hidden
+.info-about-transport__items__right-items__items__item__img
+	width: 200px
+	height: 200px
+.info-about-transport__items__right-items__items__item__img_img
+	width: 100%
+.for
+	width: 350px
+	height: 350px
+.pl
+	padding-left: 70px
+.limit
+	display: none
+.info-about-transport__items__bottom-items__button
+	padding-top: 70px
+.on
+	display: none
+.zayavka-mobile
+	display: none
+.result__filtres
+	display: none
+// @media screen and (max-width: 1024px)
+// 	body
+// 		min-width: 100%
+// 	.limiter
+// 		width: 1024px
+
+@media screen and (max-width: 480px)
+	// .a
+	// 	display: none
+	body
+		min-width: 480px
+	.limiter
+		width: 450px
+	.header__top__items
+		height: 60px
+	.header__logo
+		width: 119px
+		height: 36px
+	.header__logo_logo
+		width: 100%
+	.header__feedback
+		padding-top: 15px
+	.header__items__feedback__text_number
+		color: #21283e
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+	.header__item__feedback__text_text
+		color: #21283e
+		font-family: Roboto
+		font-size: 11px
+		font-weight: 400
+	.header__item__feedback__button
+		display: none
+	.top__links
+		display: none
+	.top__links-slider
+		display: block
+	.top__links__link
+		padding-left: 50px
+		&:before
+			left: 0
+	.banner__links__alllink__select
+		display: block
+	.banner__links__alllink
+		display: none
+	.banner__links__alllink__select
+		padding-top: 20px
+		text-align: center
+	.banner__links__alllink__select_select
+		width: 280px
+		height: 44px
+		border-radius: 4px
+		border: 1px solid #ffffff
+		background: none
+		outline: none
+		color: #ffffff
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+		text-indent: 17px
+	.banner__links__alllink__select_option
+		background: #333
+	.banner__main__text_h1
+		font-size: 30px
+	.banner__main__text
+		padding-top: 26px
+	.banner__bottom
+		padding-left: 71px
+	.banner__poisk__items
+		margin-top: 74px
+		padding-left: 46px
+		background: none
+		border: none
+		width: auto
+	.banner__poisk__items_item
+		padding-bottom: 10px
+	.banner__bottom__seting
+		display: none
+	.banner__poisk__items_item_input
+		width: 351px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #e7e7e7
+		background-color: #ffffff
+	.banner__poisk__items_item1
+		border-right: none
+	.banner__poisk__items_item2
+		border-right: none
+	.banner__poisk__items_item_input-inline
+		float: left
+	.inline
+		width: 150px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #e7e7e7
+		background-color: #ffffff
+	.banner__poisk__items_item1-1
+		&:before
+			left: 320px
+	.banner__poisk__items_item2
+		width: 202px
+		border-right: none
+	.banner__poisk__items_item3-3
+		&:before
+			left: 110px
+	.banner__poisk__items_item4-4
+		&:before
+			left: 110px
+	.banner__poisk__items_item7-7
+		&:before
+			left: 320px
+	.banner__poisk__items_item3
+		width: 202px
+		border-right: none
+		&:before
+			left: 123px
+	.banner__bottom__button
+		float: none
+	.banner__bottom__button_button
+		width: 310px
+	.news
+		display: none
+		height: 100%
+	.news-slider
+		display: block
+	.offers
+		display: none
+	.offers-none
+		display: block
+		height: 100%
+	.offers__bottom-items
+		padding-left: 50px
+	.depart__items
+		padding-left: 50px
+	.offers__top-items__right_item
+		display: none
+	.offers__bottom-items_item
+		width: 350px
+		height: 277px
+		margin-bottom: 10px
+	.offers__top-items__left_item_text_h1
+		font-size: 28px
+	.offers__bottom-items__button
+		text-align: center
+	.offers__bottom-items__button_button
+		display: inline-block
+		width: 210px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #3f84d3
+		text-align: center
+		text-decoration: none
+		color: #4085d3
+		font-family: Roboto
+		font-size: 16px
+		font-weight: 400
+		line-height: 54px
+	.direction
+		display: none
+	.direction-slider
+		display: block
+	.direction__bottom-items_item
+		width: 180px
+		height: 100%
+	.direction__top-items__left_item_text_h1
+		font-size: 28px
+	.departures
+		display: none
+	.departures-none
+		display: block
+	.departures__items__item
+		width: 350px
+	.departures__items__item__img_img
+		width: 100%
+	.departures__items__kalendar
+		text-align: center
+		padding-left: 0px
+	.kallendar
+		height: 100%
+	.kallendar__items__text
+		padding-bottom: 0px
+		padding-top: 45px
+	.kallendar__items__text_h2
+		font-size: 28px
+	.banner__bottom__button
+		padding-bottom: 50px
+	.blognews
+		display: none
+	.blognews-news
+		display: block
+	.blognews__items
+		padding-left: 50px
+	.blognews__items__item
+		width: 350px
+	.blognews__items__item__line
+		width: 100%
+	.blognews__items__item__img
+		width: 100%
+	.advantages
+		height: 100%
+	.advantages__item
+		width: 100%
+		float: none
+	.advantages__item
+		padding-bottom: 20px
+	.links
+		height: 100%
+	.links__link
+		float: none
+		width: 100%
+	.footer
+		height: 100%
+	.footer__items
+		padding-top: 30px
+	.footer__items__left-items_item
+		padding-right: 40px
+	.footer__items__right-items
+		float: none
+	.footer__items__bottom-infomation_information_left-information
+		float: none
+		text-align: center
+	.footer__items__bottom-infomation_information_right-information
+		float: none
+		text-align: center
+		padding-bottom: 50px
+	.offers
+		padding-top: 60px
+	.direction
+		padding-top: 60px
+		padding-bottom: 60px
+	.blognews
+		padding-top: 60px
+	.about
+		padding-top: 60px
+	.advantages
+		padding-top: 60px
+	.links
+		padding-top: 60px
+	.departures__items__item__text__middle-item__right-middle-item
+		&:before
+			left:  37px
+	.links__link__img_vk
+		padding-top: 20px
+	.links__link__img_facebook
+		padding-top: 18px
+	.links__link__img_twitteer
+		padding-top: 20px
+	.links__link__img_call
+		padding-top: 18px
+	.links__link__img_insta
+		padding-top: 18px
+	.links__link
+		height: 60px
+	.links__link__img_img
+		width: 24px
+		height: 24px
+	.links__link__img_imgvk
+		width: 36px
+	.blognews__items__item__bottom-item__right-item_right-item_p
+		&:before
+			left: 84%
+	.result-find__text
+		display: none
+	.result-find__banner
+		display: none
+	.result-find__main-banner
+		height: 100%
+	.result
+		padding-top: 0px
+	.result__items__item__left-item
+		display: none
+	.result-find__advantages
+		display: none
+	.result-find__about
+		display: none
+	// .result__items__item__right-item
+	// 	padding-left: 65px
+	.offersonkategory1__items__item
+		width: 310px
+	.offersonkategory1__items__item__img
+		width: 310px
+		background-repeat: no-repeat
+		background-size: cover
+	.none
+		display: none
+	.result-text
+		padding-bottom: 20px
+		padding-top: 40px
+	.result-text1
+		padding-bottom: 0px
+	.offersonkategory1__items__item__button
+		text-align: center
+	.result__filtres
+		display: block
+		height: 44px
+		background-color: #3f84d3
+	.result__filtres__items
+		text-align: center
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			display: block
+			background-image: url(../img/setting.png)
+			background-repeat: no-repeat
+			width: 16px
+			height: 16px
+			left: 88px
+			top: 15px
+	.result__filtres__items_a
+		color: #ffffff
+		font-family: Roboto
+		font-size: 16px
+		font-weight: 400
+		text-decoration: none
+		line-height: 44px
+	.target__items__item_item
+		width: 210px
+		height: 70px
+		padding-right: 0px
+		margin-right: 30px
+	.target__items__item_item2
+		background-image: url(../img/targetimg1.png)
+	.target__items__item_item2
+		margin-right: 0px
+	.target__items__item_item4
+		margin-right: 0px
+	.target__items__item_item6
+		margin-right: 0px
+	.target__items__text
+		padding-bottom: 20px
+	.offersontypicalpage__text
+		padding-bottom: 20px
+	.offersonkategory1__items__item
+		margin-left: 66px
+	.offersoffersontypicalpag__items__button_button
+		margin-top: 30px
+	.offersonkategory1__items__item__button_button
+		margin-left: 0px
+	.result__filtres
+		display: none
+	.offersontypicalpageobject
+		height: 100%
+	.offersoffersontypicalpage__items__item__bottom-item__button
+		text-align: center
+	.offersontypicalpageobject__items
+		padding-left: 75px
+	.mobile-img
+		display: none
+	.pr
+		padding-right: 0px
+	.about-sanatoriy
+		height: 100%
+	.offersoffersontypicalpage__items
+		padding-left: 80px
+	.offersoffersontypicalpage__items__item
+		margin-bottom: 10px
+	.offersoffersontypicalpage__items__item__bottom-item__button_button
+		margin-left: 0px
+	.anons
+		height: 100%
+		clear: both
+	.target
+		clear: both
+	.offersontypicalpage
+		height: 100%
+	.about-sanatotiy__items__item__img
+		width: 130px
+		height: 89px
+		padding-right: 20px
+		padding-bottom: 30px
+	.about-sanatotiy__items__item__img_img
+		width: 100%
+	.mobile-img
+		display: block
+	.pr
+		padding-right: 0px
+	.about-sanatoriy
+		height: 100%
+	.offersoffersontypicalpage__items
+		padding-left: 30px
+	.offersoffersontypicalpage__items__item
+		margin-bottom: 10px
+	.offersoffersontypicalpage__items__item__bottom-item__button_button
+		margin-left: 0px
+	.contacts
+		display: none
+		padding-top: 60px
+	.contacts__right-items
+		clear: both
+	.contacts__left-items
+		float: none
+	.contacts__mobile
+		display: block
+	.contacts__right-items__input__select_select
+		width: 100%
+	.contacts__items__about__text
+		padding-bottom: 0px
+	.about-sanatoriy__items__item__text__discription
+		padding-bottom: 0px
+	.contacts__left-items
+		box-shadow: none
+	.contacts__left-items__items__item__maintext
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__top-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__center-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__bottom-item__top-text
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__bottom-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__top-item
+		&:before
+			left: 0
+	.contacts__left-items__items__item__center-item
+		&:before
+			left: 0
+	.contacts__left-items__items__item__bottom-item
+		&:before
+			left: 0
+	.vibor
+		display: none
+	.vibor-mobile
+		display: block
+	.marks
+		display: none
+	.vibor__items__bottom-items__left-items
+		display: none
+	.vibor__items__bottom-items__left-items__right-items__bottom-text
+		display: none
+	.partners__items__item_item
+		width: 217px
+		height: 95px
+		margin-right: 12px
+		&:nth-child(2n)
+			margin-right: 0px
+	.partners__items__item_item__img
+		padding-top: 30px
+	.partners__items__item_item__img_img
+		width: 80%
+	.partners__items__item_item__img_img_img5
+		width: 65%
+	.partners__items__item_item__img_img2
+		padding-top: 20px
+	.partners__items__item_item__img_img4
+		padding-top: 20px
+	.partners__items__item_item__img_img5
+		padding-top: 10px
+	.partners__items__item_item__img_img6
+		padding-top: 20px
+	.transport__banner2
+		margin-top: 0px
+	.partners
+		padding-top: 90px
+	.transport-scheme
+		padding-top: 80px
+	.transport-scheme__items__item
+		padding-left: 80px
+	.autopark
+		padding-top: 80px
+	.banner-transport__items__form
+		width: 450px
+		height: 476px
+		float: none
+	.transport_select
+		border: 1px solid #3f84d3
+		color: #4085d3
+	.transport-mobile-form
+		display: block
+	.banner-transport__items__button
+		margin-top: 20px
+		text-align: center
+	.transport__banner2__items__text_text
+		font-size: 28px
+		font-weight: 900
+		line-height: 34px
+		letter-spacing: 0.64px
+	.banner-tranport
+		height: 400px
+		background-size: contain
+		background-position: bottom
+	.transport-services
+		padding-top: 80px
+	.transport-services__items
+		padding-left: 40px
+	.autopark__items__item_item
+		padding-left: 40px
+	.autopark__items__item_item__img_img
+		width: 100%
+	.transport__banner2__items__text
+		float: none
+		padding-top: 40px
+		padding-left: 0px
+	.transport__banner2
+		height: 100%
+	.mainpartners__items_items__item
+		width: 217px
+		height: 100px
+		margin-right: 12px
+		&:nth-child(2n)
+			margin-right: 0px
+	.mainpartners__items_items__item__img
+		padding-top: 0px
+		line-height: 145px
+	.mainpartners__items_items__item__img_img
+		width: 70%
+	.mainpartners
+		padding-top: 60px
+	.blognew-mobile
+		display: block
+	.mainnews
+		padding-top: 45px
+	.mainnews-uslugi
+		display: none
+	.mainnews__items__item
+		padding-left: 0px
+	.mainnews__items__item__img
+		width: 350px
+		height: 234px
+	.mainnews__items__item__img_img
+		width: 100%
+	.blognews__items__item__img_img
+		width: 100%
+	.links
+		clear: both
+	.departuresobject1__items__bottom-items__item
+		width: 100%
+		height: 246px
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+		border-radius: 4px
+		background-color: #ffffff
+	.departuresobject1__items__top-items
+		display: none
+	.departuresobject1__items__bottom-items__item_item:nth-child(1)
+		padding-left: 20px
+		padding-right: 112px
+	.departuresobject1__items__bottom-items__item_item:nth-child(4)
+		padding-right: 0px
+		padding-top: 15px
+	.departuresobject1__items__bottom-items__item_item:nth-child(2)
+		padding-right: 0px
+	.departuresobject1__items__bottom-items__item_item:nth-child(3)
+		padding-left: 20px
+		padding-top: 14px
+	.departuresobject1__items__bottom-items__item_item:nth-child(5)
+		padding-top: 0px
+		padding-left: 130px
+	.offersonobject1
+		padding-top: 40px
+	.kalendar__items__right-items__item__bottom-button__right-item__p
+		padding-left: 20px
+		padding-right: 20px
+	.kalendar__items__right-items__item__bottom-button__left-item
+		padding-left: 30px
+	.departures__items__item
+		margin-right: 0px
+	.on
+		display: block
+		width: 100%
+	.info-about-transport__items__left-items
+		width: 100%
+		padding-left: 0px
+		border: none
+	.pl
+		padding-left: 0px
+		padding-top: 20px
+	.info-about-transport__items__top-items__item_p
+		font-size: 16px
+	.info-about-transport__items__top-items__item
+		padding-left: 19px
+		padding-top: 31px
+	.info-about-transport__items__right-items__items__item__img
+		width: 145px
+	.info-about-transport__items__right-items__items__item__img_img
+		width: 100%
+	.for
+		height: 300px
+		width: 300px
+		padding-left: 25px
+	.full
+		width: 100%
+	.info-about-transport
+		height: 100%
+	.info-about-transport__items__bottom-items__button
+		padding-top: 125px
+		text-align: center
+	.info-about-transport__items__bottom-items
+		padding-top: 20px
+	.zayavka
+		display: none
+	.zayavka-mobile
+		display: block
+	.zayavka
+		width: 100%
+		height: 100%
+	.zayavka__items__item__top-item
+		width: 100%
+	.zayavka__items__item__bottom-item__input-items__input_input__textarea_textarea
+		width: 100%
+	.zayavka__items__item__center-item
+		height: 100%
+		box-shadow: none
+	.zayavka__items__item__top-item
+		background: none
+	.zayavka__items__item__bottom-item
+		padding-left: 0px
+	.zayavka__items__item__bottom-item__input-items__input_input
+		width: 330px
+		height: 60px
+	.zayavka__items__item__center-item__right-item
+		display: none
+	.zayavka__items__item__bottom-item__top-text
+		display: none
+	.zayavka__items__item__bottom-item
+		padding-top: 0px
+	.zayavka__items__item__center-item__text_p
+		padding-bottom: 0px
+	.zayavka__items__item__center-item__text
+		display: none
+	.wrapper
+		width: 100%
+	.transport-services
+		clear: both
+	.datepicker td, .datepicker th
+		margin-right: 33px
+	.datepicker .datepicker-switch
+		width: 310px!important
+	.katalog__items__top-item__right-item__item
+		padding-right: 16px
+	.kalendar__items__right-items
+		float: none
+	.kalendar__items__right-items__item__top-text
+		display: none
+	.departures__items__item__text__bottom-button
+		padding-left: 0px
+		text-align: center
+
+
+
+
+
+/*lending-kazan*/
+.banner-kazan
+	min-height: 750px
+	background: url(../img/landing-kazan-banner-backgrund.png)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: right
+.banner__caption
+	padding-top: 116px
+.banner__caption_caption
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 72px
+	font-weight: 700
+.banner__discriptoin
+	padding-top: 13px
+.banner__discriptoin_discription
+	width: 980px
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 18px
+	font-weight: 400
+	line-height: 32px
+.banner__buttons
+	display: flex
+	align-items: center
+	padding-top: 39px
+.banner__buttons__button-left_button
+	display: inline-block
+	text-decoration: none
+	padding: 16px 20px 16px 20px
+	box-shadow: 0 10px 20px rgba(229, 96, 16, 0.3)
+	border-radius: 100px
+	background-color: #ea6604
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 500
+.banner__buttons__button-right
+	padding-left: 110px
+.banner__buttons__button-right_button
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 600
+	text-decoration: none
+	position: relative
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		width: 50px
+		height: 50px
+		bottom: -18px
+		left: -70px
+		background: url(../img/banner-play.png)
+.banner-prise
+	position: relative
+	height: 100%
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		width: 220px
+		height: 220px
+		right: 0
+		bottom: 44px
+		background: url(../img/banner-price.png)
+.autobus-discription
+	padding-bottom: 0px
+.autobus-discriptoin__items
+	padding-top: 258px
+	padding-bottom: 34px
+	display: flex
+	flex-wrap: wrap
+.autobus-discription__text__discription
+	padding-top: 28px
+	padding-bottom: 20px
+.autobus-discription__text
+	width: 60%
+.autobus-discription__text__discription_discription
+	color: #21283e
+	font-family: Montserrat
+	font-size: 48px
+	font-weight: 700
+	line-height: 56px
+	position: relative
+	&:after
+		content: 'КАЗАНЬ'
+		position: absolute
+		display: block
+		bottom: 120px
+		left: 0
+		opacity: 0.05
+		color: #21283e
+		font-family: Montserrat
+		font-size: 180px
+		font-weight: 700
+		letter-spacing: 6.25px
+
+.autobus-discription__text__p
+	padding-bottom: 20px
+	&:last-child
+		padding-bottom: 0px
+.autobus-discription__text__p_p
+	width: 584px
+	color: #21283e
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 400
+	line-height: 24px
+.slidedisc__item
+	width: 300px
+	margin-top: 50px
+	height: 480px
+	background-color: #262626
+	position: relative
+	margin-left: 120px
+.slidedisc__item__img
+	position: absolute
+	bottom: 50px
+	left: -100px
+.slidedisc__item__text
+	width: 100%
+	height: 100%
+	display: flex
+	flex-direction: column
+	align-items: flex-end
+.slidedisc__item__text__offer
+	padding-right: 61px
+	margin-top: 42px
+	margin-bottom: 14px
+.slidedisc__item__text__offer_offer
+	width: 319px
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 26px
+	font-weight: 700
+.slidedisc__item__p
+	padding-right: 61px
+.slidedisc__item__p_p
+	width: 319px
+	opacity: 0.8
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 14px
+	font-weight: 500
+	line-height: 20px
+.individ
+	width: 550px
+	color: #0064a2
+	font-family: Montserrat
+	font-size: 12px
+	font-weight: 500
+	font-style: italic
+.rasspisanie
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		bottom: -4px
+		left: 0
+		right: 0
+		height: 270px
+		background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%)
+		background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%)
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%)
+		background-size: cover
+.rasspisanie__items
+	padding-top: 78px
+.rasspisanie__offer
+	margin-top: 120px
+.rasspisanie__offer_offer
+	color: #21283e
+	font-family: Montserrat
+	font-size: 48px
+	font-weight: 700
+	line-height: 56px
+	position: relative
+	&:after
+		content: 'ВРЕМЯ'
+		position: absolute
+		display: block
+		bottom: 120px
+		left: 0
+		top: -70px
+		opacity: 0.05
+		color: #21283e
+		font-family: Montserrat
+		font-size: 180px
+		font-weight: 700
+		letter-spacing: 6.25px
+.rasspisanie__items__item
+	display: flex
+	justify-content: space-around
+.rasspisanie__items__item
+	padding-bottom: 38px
+.rasspisanie__items__item__day_day
+	color: #ea6604
+	font-family: Montserrat
+	font-size: 24px
+	font-weight: 700
+.rasspisanie__items__item__day__day_discription
+	color: #21283e
+	font-family: Montserrat
+	font-size: 20px
+	font-weight: 700
+	line-height: 40px
+.rasspisanie__items__item__day__day_discription span
+	font-size: 14px
+	font-weight: 400
+.rasspisanie__items__btn
+	position: relative
+	z-index: 100
+	text-align: center
+.rasspisanie__items__btn_btn
+	display: inline-block
+	padding: 13px 42px 13px 42px
+	box-shadow: 0 4px 12px rgba(0, 100, 162, 0.4)
+	border-radius: 100px
+	background-color: #3f84d3
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 500
+	text-decoration: none
+.question
+	padding-top: 120px
+.queston__items
+	padding-top: 220px
+	position: relative
+	&:after
+		content: 'ВОПРОСЫ'
+		position: absolute
+		display: block
+		bottom: 120px
+		left: 0
+		top: 33px
+		opacity: 0.05
+		color: #21283e
+		font-family: Montserrat
+		font-size: 180px
+		font-weight: 700
+		letter-spacing: 6.25px
+.question__questions
+	display: flex
+	justify-content: space-between
+	align-items: center
+	height: 100px
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
+.question__questions__vopros
+	padding-left: 50px
+.questin__questions__vopros_vopros
+	color: #262626
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 500
+.question__questions__podrobnee
+	padding-right: 50px
+.question__questions__podrobnee_podrobnee
+	color: #4085d3
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 500
+	cursor: pointer
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		width: 11px
+		height: 6px
+		top: 5px
+		right: -25px
+		background: url(../img/kazan-galka.png)
+.attractions
+	padding-top: 341px
+	padding-bottom: 120px
+.attractions__item
+	margin-right: 20px
+	width: 100%
+	height: 580px
+	background: url(../img/attraction1.png)
+	background-repeat: no-repeat
+.attractions__offer
+	padding-bottom: 61px
+.attraction__item_item
+	display: flex
+	flex-direction: column
+	height: 100%
+	justify-content: flex-end
+.attractions__offer_offer
+	color: #262626
+	font-family: Montserrat
+	font-size: 48px
+	font-weight: 700
+	line-height: 56px
+	position: relative
+	&:after
+		content: 'МЕСТА'
+		position: absolute
+		display: block
+		bottom: 120px
+		left: 0
+		opacity: 0.05
+		color: #21283e
+		font-family: Montserrat
+		font-size: 180px
+		font-weight: 700
+		letter-spacing: 6
+.attractions__item__offer
+	padding-left: 20px
+.attractions__item__offer_offer
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 30px
+	font-weight: 700
+.attractions__item__p
+	padding-left: 20px
+.attractions__item__p_p
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 15px
+	font-weight: 500
+	line-height: 24px
+.form
+	height: 800px
+	background: url(../img/kazan-form.png)
+	background-position: bottom left
+	background-repeat: no-repeat
+	background-size: cover
+.form__items
+	height: 800px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	flex-wrap: wrap
+.form-left__items
+	width: 380px
+	height: 380px
+.form-right__items
+	width: 670px
+	height: 580px
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6)
+	border-radius: 10px
+	background-color: #ffffff
+.form-left__items__p-top
+	padding-bottom: 41px
+.form-left__items__p-top_p
+	height: 120px
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 24px
+	font-weight: 700
+	line-height: 30px
+.form-left__items__p-center_p
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 14px
+	font-weight: 400
+	line-height: 30px
+.form-left__items__p-center_p span
+	font-size: 24px
+	font-weight: 600
+.form-left__items__p-bottom_p span
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 12px
+	font-weight: 700
+	line-height: 18px
+	letter-spacing: 2px
+.form-left__items__p-bottom_p
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 30px
+	font-weight: 500
+	line-height: 36px
+	letter-spacing: -0.64px
+.form-right__items__offer
+	text-align: center
+	padding-top: 62px
+.form-right__items__offer_p
+	color: #1f1f1f
+	font-family: Montserrat
+	font-size: 30px
+	font-weight: 700
+	line-height: 50px
+.form-input_input
+	border-radius: 3px
+	border: none
+	background: #e8e8e8
+	color: #1f1f1f
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 400
+	line-height: 50px
+	text-indent: 20px
+.form-right__input
+	margin-right: 30px
+	margin-bottom: 17px
+.form-right__input__p_p
+	color: #1f1f1f
+	font-family: Montserrat
+	font-size: 14px
+	font-weight: 700
+	line-height: 50px
+.form-right__input__input_input
+	width: 250px
+	height: 50px
+.form-right__input__input_textarea
+	width: 530px
+	height: 150px
+	resize: none
+.form-right__input__input_email
+	width: 360px
+	height: 50px
+.form-right__items_form
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+.form-right__input__input_submit
+	margin-top: 49px
+	width: 140px
+	height: 42px
+	border-radius: 100px
+	border: none
+	background: #e56010
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 14px
+	font-weight: 700
+.cause
+	height: 800px
+	background: url(../img/kazan-form.png)
+	background-position: bottom left
+	background-repeat: no-repeat
+	background-size: cover
+.cause__offer
+	padding-top: 117px
+.cause__offer_offer
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 64px
+	font-weight: 700
+	letter-spacing: -1.03px
+.cause__items
+	padding-top: 41px
+	display: flex
+	flex-wrap: wrap
+.cause__items_item
+	margin-bottom: 40px
+	margin-right: 121px
+.cause__items_item_offer
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 700
+	line-height: 28px
+	// Text style for "ПРОЖИВАНИЕ"
+	letter-spacing: 2px
+	padding-bottom: 16px
+.cause__items_item_p
+	color: #ffffff
+	font-family: Montserrat
+	font-size: 16px
+	font-weight: 500
+	line-height: 24px
+	
+	
+.links
+	clear: both
+.kazan-arrows
+	display: flex
+	justify-content: flex-end
+	padding-bottom: 20px
+.KazanArrowPrev
+		width: 25px
+		height: 20px
+		margin-right: 20px
+		background: url(../img/kazanprev.png)
+		cursor: pointer
+		&:hover
+			background: url(../img/kazanprevred.png)
+.KazanArrowNext
+		width: 25px
+		height: 20px
+		background: url(../img/kazannext.png)
+		cursor: pointer
+		&:hover
+			background: url(../img/kazannextred.png)
+.kazan-arrows
+	display: flex
+	justify-content: flex-end
+	padding-bottom: 20px
+.KazanArrowPrevv
+		width: 25px
+		height: 20px
+		margin-right: 20px
+		background: url(../img/kazanprev.png)
+		cursor: pointer
+		&:hover
+			background: url(../img/kazanprevred.png)
+.KazanArrowNextt
+		width: 25px
+		height: 20px
+		background: url(../img/kazannext.png)
+		cursor: pointer
+		&:hover
+			background: url(../img/kazannextred.png)
+.offers__top-items__right_item1
+	padding-right: 105px
+.offers__top-items__right_item2
+	display: flex
+	position: absolute
+	right: 100px
+	top: -50px
+
+.slidedisc
+	position: relative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px)
+	// .a
+	// 	display: none
+	body
+		min-width: 375px
+	.limiter
+		width: 350px
+	.header__top__items
+		height: 60px
+	.header__logo
+		width: 119px
+		height: 36px
+	.header__logo_logo
+		width: 100%
+	.header__feedback
+		padding-top: 15px
+	.header__items__feedback__text_number
+		color: #21283e
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+	.header__item__feedback__text_text
+		color: #21283e
+		font-family: Roboto
+		font-size: 11px
+		font-weight: 400
+	.header__item__feedback__button
+		display: none
+	.top__links
+		display: none
+	.top__links-slider
+		display: block
+	.top__links__link
+		padding-left: 50px
+		&:before
+			left: 0
+	.banner__links__alllink__select
+		display: block
+	.banner__links__alllink
+		display: none
+	.banner__links__alllink__select
+		padding-top: 20px
+		text-align: center
+	.banner__links__alllink__select_select
+		width: 280px
+		height: 44px
+		border-radius: 4px
+		border: 1px solid #ffffff
+		background: none
+		outline: none
+		color: #ffffff
+		font-family: Roboto
+		font-size: 14px
+		font-weight: 400
+		text-indent: 17px
+	.banner__links__alllink__select_option
+		background: #333
+	.banner__main__text_h1
+		font-size: 30px
+	.banner__main__text
+		padding-top: 26px
+	.banner__bottom
+		padding-left: 25px
+	.banner__poisk__items
+		margin-top: 74px
+		padding-left: 20px
+		background: none
+		border: none
+		width: auto
+	.banner__poisk__items_item
+		padding-bottom: 10px
+	.banner__bottom__seting
+		display: none
+	.banner__poisk__items_item_input
+		width: 310px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #e7e7e7
+		background-color: #ffffff
+	.banner__poisk__items_item1
+		border-right: none
+	.banner__poisk__items_item2
+		border-right: none
+	.banner__poisk__items_item_input-inline
+		float: left
+	.inline
+		width: 150px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #e7e7e7
+		background-color: #ffffff
+	.banner__poisk__items_item1-1
+		&:before
+			left: 274px
+	.banner__poisk__items_item2
+		width: 165px
+		border-right: none
+	.banner__poisk__items_item3-3
+		&:before
+			left: 110px
+	.banner__poisk__items_item4-4
+		&:before
+			left: 110px
+	.banner__poisk__items_item7-7
+		&:before
+			left: 274px
+	.banner__poisk__items_item3
+		width: 164px
+		border-right: none
+		&:before
+			left: 123px
+	.banner__bottom__button
+		float: none
+	.banner__bottom__button_button
+		width: 310px
+	.news
+		display: none
+		height: 100%
+	.news-slider
+		display: block
+	.offers
+		display: none
+	.offers-none
+		display: block
+		height: 100%
+	.offers__top-items__right_item
+		display: none
+	.offers__bottom-items_item
+		width: 350px
+		height: 277px
+		margin-bottom: 10px
+	.offers__bottom-items
+		padding-left: 0px
+	.offers__top-items__left_item_text_h1
+		font-size: 28px
+	.offers__bottom-items__button
+		text-align: center
+	.offers__bottom-items__button_button
+		display: inline-block
+		width: 210px
+		height: 54px
+		border-radius: 100px
+		border: 1px solid #3f84d3
+		text-align: center
+		text-decoration: none
+		color: #4085d3
+		font-family: Roboto
+		font-size: 16px
+		font-weight: 400
+		line-height: 54px
+	.direction
+		display: none
+	.direction-slider
+		display: block
+	.direction__bottom-items_item
+		width: 180px
+		height: 100%
+	.direction__top-items__left_item_text_h1
+		font-size: 28px
+	.departures
+		display: none
+	.departures-none
+		display: block
+	.departures__items__item
+		width: 350px
+	.depart__items
+		padding-left: 0px
+	.departures__items__item__img_img
+		width: 100%
+	.departures__items__kalendar
+		text-align: center
+		padding-left: 0px
+	.kallendar
+		height: 100%
+	.kallendar__items__text
+		padding-bottom: 0px
+		padding-top: 45px
+	.kallendar__items__text_h2
+		font-size: 28px
+	.banner__bottom__button
+		padding-bottom: 50px
+	.blognews
+		display: none
+	.blognews-news
+		display: block
+	.blognews__items
+		padding-left: 0px
+	.blognews__items__item
+		width: 350px
+	.blognews__items__item__line
+		width: 100%
+	.blognews__items__item__img
+		width: 100%
+	.advantages
+		height: 100%
+	.advantages__item
+		width: 100%
+		float: none
+	.advantages__item
+		padding-bottom: 20px
+	.links
+		height: 100%
+	.links__link
+		float: none
+		width: 100%
+	.footer
+		height: 100%
+	.footer__items
+		padding-top: 30px
+	.footer__items__left-items_item
+		padding-right: 40px
+	.footer__items__right-items
+		float: none
+	.footer__items__bottom-infomation_information_left-information
+		float: none
+		text-align: center
+	.footer__items__bottom-infomation_information_right-information
+		float: none
+		text-align: center
+		padding-bottom: 50px
+	.offers
+		padding-top: 60px
+	.direction
+		padding-top: 60px
+		padding-bottom: 60px
+	.blognews
+		padding-top: 60px
+	.about
+		padding-top: 60px
+	.advantages
+		padding-top: 60px
+	.links
+		padding-top: 60px
+	.departures__items__item__text__middle-item__right-middle-item
+		&:before
+			left:  37px
+	.links__link__img_vk
+		padding-top: 20px
+	.links__link__img_facebook
+		padding-top: 18px
+	.links__link__img_twitteer
+		padding-top: 20px
+	.links__link__img_call
+		padding-top: 18px
+	.links__link__img_insta
+		padding-top: 18px
+	.links__link
+		height: 60px
+	.links__link__img_img
+		width: 24px
+		height: 24px
+	.links__link__img_imgvk
+		width: 36px
+	.blognews__items__item__bottom-item__right-item_right-item_p
+		&:before
+			left: 84%
+	.result-find__text
+		display: none
+	.result-find__banner
+		display: none
+	.result-find__main-banner
+		height: 100%
+	.result
+		padding-top: 0px
+	.result__items__item__left-item
+		display: none
+	.result-find__advantages
+		display: none
+	.result-find__about
+		display: none
+	// .result__items__item__right-item
+	// 	padding-left: 20px
+	.offersonkategory1__items__item
+		width: 310px
+	.offersonkategory1__items__item__img
+		width: 310px
+		background-repeat: no-repeat
+		background-size: cover
+	.none
+		display: none
+	.result-text
+		padding-bottom: 20px
+		padding-top: 40px
+	.result-text1
+		padding-bottom: 0px
+	.offersonkategory1__items__item__button
+		text-align: center
+	.result__filtres
+		display: block
+		height: 44px
+		background-color: #3f84d3
+	.result__filtres__items
+		text-align: center
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			display: block
+			background-image: url(../img/setting.png)
+			background-repeat: no-repeat
+			width: 16px
+			height: 16px
+			left: 88px
+			top: 15px
+	.result__filtres__items_a
+		color: #ffffff
+		font-family: Roboto
+		font-size: 16px
+		font-weight: 400
+		text-decoration: none
+		line-height: 44px
+	.target__items__item_item
+		width: 170px
+		height: 62px
+		padding-right: 0px
+		margin-right: 10px
+	.target__items__item_item2
+		background-image: url(../img/targetimg1.png)
+	.target__items__item_item2
+		margin-right: 0px
+	.target__items__item_item4
+		margin-right: 0px
+	.target__items__item_item6
+		margin-right: 0px
+	.target__items__text
+		padding-bottom: 20px
+	.offersontypicalpage__text
+		padding-bottom: 20px
+	.offersonkategory1__items__item
+		margin-left: 20px
+	.offersoffersontypicalpag__items__button_button
+		margin-top: 30px
+	.offersonkategory1__items__item__button_button
+		margin-left: 0px
+	.offersontypicalpageobject
+		height: 100%
+	.offersoffersontypicalpage__items__item__bottom-item__button
+		text-align: center
+	.offersontypicalpageobject__items
+		padding-left: 30px
+	.anons
+		height: 100%
+		clear: both
+	.offersontypicalpage
+		height: 100%
+	.about-sanatotiy__items__item__img
+		width: 113px
+		height: 89px
+		padding-right: 5px
+		padding-bottom: 5px
+	.about-sanatotiy__items__item__img_img
+		width: 100%
+	.mobile-img
+		display: block
+	.pr
+		padding-right: 0px
+	.about-sanatoriy
+		height: 100%
+	.offersoffersontypicalpage__items
+		padding-left: 30px
+	.offersoffersontypicalpage__items__item
+		margin-bottom: 10px
+	.offersoffersontypicalpage__items__item__bottom-item__button_button
+		margin-left: 0px
+	.contacts
+		display: none
+		padding-top: 60px
+	.contacts__right-items
+		clear: both
+	.contacts__left-items
+		float: none
+		height: 100%
+	.contacts__mobile
+		display: block
+	.contacts__right-items__input__select_select
+		width: 100%
+	.contacts__items__about__text
+		padding-bottom: 0px
+	.about-sanatoriy__items__item__text__discription
+		padding-bottom: 0px
+	.contacts__left-items
+		box-shadow: none
+	.contacts__left-items__items__item__maintext
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__top-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__center-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__bottom-item__top-text
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__bottom-item
+		padding-top: 30px
+		padding-left: 58px
+	.contacts__left-items__items__item__top-item
+		&:before
+			left: 0
+	.contacts__left-items__items__item__center-item
+		&:before
+			left: 0
+	.contacts__left-items__items__item__bottom-item
+		&:before
+			left: 0
+	.vibor
+		display: none
+	.vibor-mobile
+		display: block
+	.marks
+		display: none
+	.vibor__items__bottom-items__left-items
+		display: none
+	.vibor__items__bottom-items__left-items__right-items__bottom-text
+		display: none
+	.partners__items__item_item
+		width: 165px
+		height: 73px
+		margin-right: 12px
+		&:nth-child(2n)
+			margin-right: 0px
+	.partners__items__item_item__img
+		padding-top: 30px
+	.partners__items__item_item__img_img
+		width: 80%
+	.partners__items__item_item__img_img_img5
+		width: 65%
+	.partners__items__item_item__img_img2
+		padding-top: 20px
+	.partners__items__item_item__img_img4
+		padding-top: 20px
+	.partners__items__item_item__img_img5
+		padding-top: 10px
+	.partners__items__item_item__img_img6
+		padding-top: 20px
+	.transport__banner2
+		margin-top: 0px
+	.partners
+		padding-top: 90px
+	.transport-scheme
+		padding-top: 80px
+	.transport-scheme__items__item
+		padding-left: 44px
+	.autopark
+		padding-top: 80px
+	.banner-transport__items__form
+		width: 100%
+		height: 100%
+		float: none
+	.banner-transport__items__form__items__bottom-items__input
+		&:nth-child(2n)
+			padding-right: 0px
+	.banner-transport__items__form__items__bottom-items__input_input
+		width: 165px
+	.banner-transport__items__form__items__bottom-items__input_textarea
+		width: 348px
+	.banner-transport__items__form__items__bottom-items
+		padding-left: 0px
+	.banner-transport__items__form__items__bottom-items__btn
+		padding-left: 0px
+		text-align: center
+	.transport_select
+		border: 1px solid #3f84d3
+		color: #4085d3
+	.transport-mobile-form
+		display: block
+	.banner-transport__items__button
+		margin-top: 20px
+		text-align: center
+	.transport__banner2__items__text_text
+		font-size: 28px
+		font-weight: 900
+		line-height: 34px
+		letter-spacing: 0.64px
+	.banner-tranport
+		height: 400px
+		background-size: contain
+		background-position: bottom
+	.transport-services
+		padding-top: 80px
+	.transport-services__items__item_item
+		width: 350px
+	.transport-services__items
+		padding-left: 0px
+	.autopark__items__item_item
+		width: 350px
+		padding-left: 0px
+	.autopark__items__item_item__img_img
+		width: 100%
+	.transport__banner2__items__text
+		float: none
+		padding-top: 40px
+		padding-left: 0px
+	.transport__banner2
+		height: 100%
+	.mainpartners__items_items__item
+		width: 165px
+		height: 73px
+		margin-right: 12px
+		&:nth-child(2n)
+			margin-right: 0px
+	.mainpartners__items_items__item__img
+		padding-top: 0px
+		line-height: 100px
+	.mainpartners__items_items__item__img_img
+		width: 70%
+	.mainpartners
+		padding-top: 60px
+	.blognew-mobile
+		display: block
+	.mainnews
+		padding-top: 45px
+	.mainnews-uslugi
+		display: none
+	.mainnews__items__item
+		padding-left: 0px
+	.mainnews__items__item__img
+		width: 350px
+		height: 234px
+	.mainnews__items__item__img_img
+		width: 100%
+	.blognews__items__item__img_img
+		width: 100%
+	.links
+		clear: both
+	.departuresobject1__items__bottom-items__item
+		width: 100%
+		height: 246px
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3)
+		border-radius: 4px
+		background-color: #ffffff
+	.departuresobject1__items__top-items
+		display: none
+	.departuresobject1__items__bottom-items__item_item:nth-child(1)
+		padding-left: 20px
+		padding-right: 50px
+	.departuresobject1__items__bottom-items__item_item:nth-child(4)
+		padding-right: 0px
+		padding-top: 15px
+	.departuresobject1__items__bottom-items__item_item:nth-child(2)
+		padding-right: 0px
+	.departuresobject1__items__bottom-items__item_item:nth-child(3)
+		padding-left: 20px
+		padding-right: 92px
+		padding-top: 14px
+	.departuresobject1__items__bottom-items__item_item:nth-child(5)
+		padding-top: 0px
+		padding-left: 88px
+	.offersonobject1
+		padding-top: 40px
+	.kalendar__items__right-items__item__bottom-button__right-item__p
+		padding-left: 20px
+		padding-right: 20px
+	.kalendar__items__right-items__item__bottom-button__left-item
+		padding-left: 30px
+	.departures__items__item
+		margin-right: 0px
+	.on
+		display: block
+		width: 100%
+	.info-about-transport__items__left-items
+		width: 100%
+		padding-left: 0px
+		border: none
+	.pl
+		padding-left: 0px
+		padding-top: 20px
+	.info-about-transport__items__top-items__item_p
+		font-size: 16px
+	.info-about-transport__items__top-items__item
+		padding-left: 19px
+		padding-top: 31px
+	.info-about-transport__items__right-items__items__item__img
+		width: 145px
+	.info-about-transport__items__right-items__items__item__img_img
+		width: 100%
+	.for
+		height: 300px
+		width: 300px
+		padding-left: 25px
+	.full
+		width: 100%
+	.info-about-transport
+		height: 100%
+	.info-about-transport__items__bottom-items__button
+		padding-top: 125px
+		text-align: center
+	.info-about-transport__items__bottom-items
+		padding-top: 20px
+	.zayavka
+		display: none
+	.zayavka-mobile
+		display: block
+	.zayavka
+		width: 100%
+		height: 100%
+	.zayavka__items__item__top-item
+		width: 100%
+	.zayavka__items__item__bottom-item__input-items__input_input__textarea_textarea
+		width: 100%
+	.zayavka__items__item__center-item
+		height: 100%
+		box-shadow: none
+	.zayavka__items__item__top-item
+		background: none
+	.zayavka__items__item__bottom-item
+		padding-left: 0px
+	.zayavka__items__item__bottom-item__input-items__input_input
+		width: 330px
+		height: 60px
+	.zayavka__items__item__center-item__right-item
+		display: none
+	.zayavka__items__item__bottom-item__top-text
+		display: none
+	.zayavka__items__item__bottom-item
+		padding-top: 0px
+	.zayavka__items__item__center-item__text_p
+		padding-bottom: 0px
+	.zayavka__items__item__center-item__text
+		display: none
+	.wrapper
+		width: 100%
+	.transport-services
+		clear: both
+	.datepicker td, .datepicker th
+		margin-right: 15px
+	.datepicker .datepicker-switch
+		width: 240px!important
+	.katalog__items__top-item__right-item__item
+		padding-right: 16px
